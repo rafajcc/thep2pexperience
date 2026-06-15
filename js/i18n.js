@@ -24,8 +24,18 @@ const I18n = (() => {
     const keys = key.split(".");
     let val = translations;
     for (const k of keys) {
-      if (val && typeof val === "object" && k in val) {
-        val = val[k];
+      if (!val || typeof val !== "object") return key;
+      let idx = null;
+      let prop = k;
+      const match = k.match(/^([^\[]+)\[(\d+)\]$/);
+      if (match) {
+        prop = match[1];
+        idx = parseInt(match[2], 10);
+      }
+      if (idx !== null && Array.isArray(val[prop])) {
+        val = val[prop][idx];
+      } else if (prop in val) {
+        val = val[prop];
       } else {
         return key;
       }
