@@ -4,3 +4,6 @@ build/
 .env
 .DS_Store
 *.log
+
+# Ignorar el CSV real del usuario (fuera del repo)
+investments*.csv

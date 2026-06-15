@@ -1,0 +1,370 @@
+{
+  "site": {
+    "title": "The P2P Experience",
+    "description": "Seguimiento personal e información sobre inversión en préstamos P2P"
+  },
+  "nav": {
+    "hero": "Inicio",
+    "que-es": "Qué es el P2P",
+    "historia": "Historia",
+    "regulacion": "Regulación y Riesgos",
+    "plataformas": "Plataformas",
+    "revolut": "Revolut",
+    "rendimiento": "Rendimiento",
+    "faq": "FAQ",
+    "lang": "Idioma"
+  },
+  "hero": {
+    "title": "The P2P Experience",
+    "subtitle": "Un recorrido personal por la inversión en préstamos P2P, sin promesas vacías ni verdades absolutas.",
+    "intro": "Este sitio recoge mi experiencia invirtiendo en lending P2P desde 2017. Aquí encontrarás información, análisis y datos reales sobre las plataformas que uso, con un enfoque honesto y realista.",
+    "cta_plataformas": "Ver plataformas",
+    "cta_rendimiento": "Ver rendimiento"
+  },
+  "quees": {
+    "title": "¿Qué es el P2P Lending?",
+    "intro": "El préstamo entre particulares, o P2P lending, conecta a inversores con prestatarios a través de una plataforma online, eliminando intermediarios bancarios tradicionales.",
+    "como_funciona": {
+      "title": "¿Cómo funciona?",
+      "p1": "Un inversor elige préstamos en los que quiere participar, normalmente desde importes pequeños. La plataforma se encarga de la gestión del préstamo, los cobros y, en caso de impago, del proceso de recuperación.",
+      "p2": "El inversor obtiene un rendimiento a través de los intereses que paga el prestatario. La plataforma cobra una comisión por su servicio."
+    },
+    "tipos": {
+      "title": "Tipos de préstamos",
+      "items": [
+        "Préstamos personales: los más comunes, para consumo o necesidades puntuales.",
+        "Préstamos para empresas: enfocados a negocios que buscan financiación.",
+        "Préstamos inmobiliarios: respaldados por propiedades inmobiliarias.",
+        "Préstamos rápidos (short-term): de corta duración, con tipos de interés más altos."
+      ]
+    },
+    "ventajas": {
+      "title": "Ventajas potenciales",
+      "items": [
+        "Rentabilidades potencialmente más altas que productos bancarios tradicionales.",
+        "Posibilidad de diversificar con importes pequeños.",
+        "Control sobre los préstamos en los que se invierte.",
+        "Mercado secundario en algunas plataformas para vender préstamos antes de su vencimiento."
+      ]
+    },
+    "riesgos": {
+      "title": "Riesgos principales",
+      "items": [
+        "Riesgo de impago: el prestatario puede no devolver el préstamo.",
+        "Riesgo de liquidez: no siempre es fácil vender préstamos en el mercado secundario.",
+        "Riesgo de plataforma: la plataforma puede quebrar o cesar su actividad.",
+        "Riesgo de divisa: invertir en otras monedas puede afectar a la rentabilidad."
+      ]
+    },
+    "diferencias": {
+      "title": "Diferencias frente a otras inversiones",
+      "items": [
+        "No está garantizado como un depósito bancario.",
+        "No cotiza en bolsa como una acción.",
+        "Ofrece más control que un fondo de inversión, pero también más responsabilidad.",
+        "Los rendimientos no están asegurados y pueden variar significativamente."
+      ]
+    }
+  },
+  "historia": {
+    "title": "Breve historia del P2P Lending",
+    "intro": "El P2P lending nació a mediados de los 2000 como alternativa a la banca tradicional, aprovechando la tecnología para conectar directamente a quienes necesitan financiación con quienes buscan rentabilidad.",
+    "hitos": [
+      {
+        "year": "2005",
+        "text": "Aparecen las primeras plataformas en Reino Unido y Estados Unidos, sentando las bases del modelo."
+      },
+      {
+        "year": "2008-2010",
+        "text": "Tras la crisis financiera, el sector gana tracción como alternativa a los bancos. Surgen nuevas plataformas en Europa."
+      },
+      {
+        "year": "2014-2017",
+        "text": "El sector vive un crecimiento acelerado. Plataformas como Mintos y Bondora se consolidan en Europa. Miles de inversores empiezan a diversificar hacia préstamos P2P."
+      },
+      {
+        "year": "2018-2020",
+        "text": "Aumenta la regulación en la UE. El mercado secundario se populariza. La pandemia pone a prueba la capacidad de recuperación del sector."
+      },
+      {
+        "year": "2021-presente",
+        "text": "El sector madura con mayor regulación, entrada de inversores institucionales y plataformas cada vez más sofisticadas. Siguen existiendo riesgos, pero el ecosistema es más sólido que en sus inicios."
+      }
+    ]
+  },
+  "regulacion": {
+    "title": "Regulación y Riesgos",
+    "declaracion": "La información de esta sección es meramente informativa. No constituye asesoramiento financiero ni recomendación de inversión.",
+    "reguladas": {
+      "title": "Plataformas reguladas",
+      "text": "Algunas plataformas operan bajo licencias de autoridades financieras europeas, lo que implica cumplir con requisitos de transparencia, capital mínimo y protección al inversor. Esto no elimina los riesgos, pero ofrece un marco de supervisión."
+    },
+    "no_reguladas": {
+      "title": "Plataformas no reguladas",
+      "text": "Otras plataformas operan sin licencia financiera específica, a menudo bajo legislación de países con menor supervisión. Esto puede implicar mayor riesgo, aunque no necesariamente menor fiabilidad. Cada inversor debe evaluar cada caso."
+    },
+    "riesgos_lista": {
+      "title": "Riesgos principales a considerar",
+      "items": [
+        {
+          "name": "Riesgo de impago",
+          "text": "El prestatario no devuelve el préstamo. Las plataformas tienen procesos de recuperación, pero no hay garantía de recuperar el capital."
+        },
+        {
+          "name": "Riesgo de liquidez",
+          "text": "No siempre es posible vender préstamos en el mercado secundario. En momentos de crisis, la liquidez puede reducirse drásticamente."
+        },
+        {
+          "name": "Riesgo de concentración",
+          "text": "Invertir en pocos préstamos o en una sola plataforma aumenta el riesgo. La diversificación es clave."
+        },
+        {
+          "name": "Riesgo de divisa",
+          "text": "Invertir en préstamos en otras monedas (EUR, USD, GBP, etc.) expone a fluctuaciones del tipo de cambio."
+        },
+        {
+          "name": "Riesgo de plataforma",
+          "text": "La plataforma puede enfrentar problemas operativos, regulatorios o financieros que afecten a los inversores."
+        },
+        {
+          "name": "Riesgo de originador",
+          "text": "En plataformas que trabajan con entidades externas, la salud financiera de esas entidades afecta al riesgo de los préstamos."
+        }
+      ]
+    },
+    "disclaimer": "Invertir en préstamos P2P conlleva riesgos. No es un depósito bancario, no está garantizado y puedes perder parte o la totalidad de tu capital. Esta web no ofrece asesoramiento financiero personalizado."
+  },
+  "plataformas": {
+    "title": "Plataformas",
+    "intro": "Fichas informativas y personales sobre las plataformas en las que invierto. Cada ficha combina información objetiva con mi experiencia personal, claramente diferenciada.",
+    "tabla_comparativa": "Comparativa rápida",
+    "tabla": {
+      "nombre": "Plataforma",
+      "tipo": "Tipo",
+      "regulada": "Regulada",
+      "rentabilidad": "Rentabilidad típica",
+      "antiguedad": "Desde"
+    },
+    "no_datos": "Sin datos disponibles",
+    "ver_ficha": "Ver detalle",
+    "ocultar_ficha": "Ocultar detalle",
+    "objetivo": "Información general",
+    "experiencia": "Mi experiencia",
+    "puntos_fuertes": "Puntos fuertes",
+    "riesgos_limitaciones": "Riesgos o limitaciones",
+    "perfil": "¿Para quién?",
+    "web_oficial": "Web oficial",
+    "enlace_referido": "Enlace de referido",
+    "no_disponible": "No disponible",
+    "inactive": "Plataforma no disponible actualmente",
+    "tabs": {
+      "todas": "Todas",
+      "reguladas": "Reguladas",
+      "no_reguladas": "No reguladas"
+    },
+    "nota_referido": "Algunos enlaces de la web son enlaces de referido o afiliación. Si los usas, es posible que reciba una compensación, sin coste adicional para ti. Infórmate de las condiciones vigentes en cada programa."
+  },
+  "plataforma_bondora": {
+    "nombre": "Bondora",
+    "resumen": "Plataforma con sede en Estonia, fundada en 2008. Fue una de las pioneras en Europa y ofrece préstamos personales, además de su producto Go & Grow, una opción automatizada que busca simplificar la inversión. Opera bajo licencia de la Autoridad de Mercados Financieros de Estonia.",
+    "producto": "Préstamos personales, Go & Grow (inversión automatizada), mercado secundario.",
+    "puntos_fuertes": [
+      "Plataforma consolidada con años de trayectoria.",
+      "Producto Go & Grow sencillo para inversores que buscan automatización.",
+      "Mercado secundario activo para venta de préstamos.",
+      "Opera bajo supervisión financiera en Estonia."
+    ],
+    "riesgos": [
+      "Histórico de rendimientos variables, con periodos de rentabilidades negativas.",
+      "Exposición significativa a mercados de riesgo crediticio.",
+      "La rentabilidad de Go & Grow no está garantizada y puede ajustarse."
+    ],
+    "perfil": "Inversores que buscan una plataforma con trayectoria y producto automatizado, asumiendo los riesgos del mercado de préstamos personales.",
+    "experiencia": "Bondora fue la primera plataforma de la que oí hablar y en la que invertí. En ella aprendí sobre riesgos, mercado secundario y venta de préstamos con descuento. Como estaba en fase de aprendizaje, mi rendimiento fue decayendo y poco a poco fui prefiriendo plataformas que me resultaban más cómodas de usar, como Mintos o Twino. Actualmente mi cartera en Bondora está centrada en Go & Grow como opción sencilla."
+  },
+  "plataforma_mintos": {
+    "nombre": "Mintos",
+    "resumen": "Plataforma con sede en Letonia, fundada en 2015. Es una de las más conocidas del sector y ofrece préstamos de diversas entidades originadoras. Opera bajo licencia de la Autoridad de Mercados Financieros y de Capital de Letonia.",
+    "producto": "Préstamos de originadores externos (empresas, vehículos, inmuebles, etc.), mercado secundario, Investment Opportunities con diferentes perfiles de riesgo.",
+    "puntos_fuertes": [
+      "Plataforma con gran volumen de préstamos y diversidad de originadores.",
+      "Interfaz completa y herramientas de análisis.",
+      "Mercado secundario líquido en condiciones normales.",
+      "Regulada en la UE con licencia de plataforma de financiación participativa."
+    ],
+    "riesgos": [
+      "Dependencia de originadores externos; la salud de estos afecta al riesgo de los préstamos.",
+      "Ha habido casos de originadores con problemas de pago (ejemplo: mi experiencia personal).",
+      "No todos los originadores están supervisados directamente por la plataforma."
+    ],
+    "perfil": "Inversores que buscan variedad de productos, herramientas de análisis y mercados secundarios activos.",
+    "experiencia": "Mintos es una de las plataformas más conocidas del sector, y durante mucho tiempo me ha dado buena rentabilidad. He tenido un problema con una entidad dentro de la plataforma que dejó de pagar, pero mi experiencia es que Mintos ha gestionado la recuperación manteniendo informados a los inversores. Esto no significa que vaya a ser así siempre, pero en mi caso ha sido llevadero."
+  },
+  "plataforma_twino": {
+    "nombre": "Twino",
+    "resumen": "Plataforma con sede en Letonia, fundada en 2016. Se centra en préstamos empresariales garantizados con activos y está regulada por la Autoridad de Mercados Financieros y de Capital de Letonia.",
+    "producto": "Préstamos empresariales garantizados con activos reales (inmuebles, vehículos, maquinaria).",
+    "puntos_fuertes": [
+      "Enfoque en préstamos garantizados, lo que puede reducir el riesgo de impago.",
+      "Plataforma regulada en la UE.",
+      "Históricamente rentabilidad más estable que otras plataformas."
+    ],
+    "riesgos": [
+      "Las garantías no siempre cubren la totalidad del préstamo en caso de impago.",
+      "Menor variedad de productos que otras plataformas.",
+      "Dependencia del mercado de préstamos empresariales."
+    ],
+    "perfil": "Inversores que prefieren un perfil más conservador dentro del P2P, con préstamos respaldados por activos.",
+    "experiencia": "Me parece una plataforma sencilla de usar y bastante constante en el tiempo. En mi caso no he tenido problemas relevantes."
+  },
+  "plataforma_maclear": {
+    "nombre": "Maclear",
+    "resumen": "Plataforma fundada en 2021, con sede en Reino Unido. Opera en el espacio de préstamos respaldados por criptoactivos y créditos. Es una plataforma relativamente joven en proceso de desarrollo de funcionalidades.",
+    "producto": "Préstamos respaldados por activos digitales, mercado secundario.",
+    "puntos_fuertes": [
+      "Mercado secundario que resulta fácil de usar.",
+      "Equipo joven que va incorporando mejoras progresivamente."
+    ],
+    "riesgos": [
+      "Plataforma joven con menos trayectoria que otras del sector.",
+      "Exposición a criptoactivos y su volatilidad.",
+      "Menor volumen de préstamos y liquidez."
+    ],
+    "perfil": "Inversores interesados en explorar plataformas más nuevas con exposición a activos digitales.",
+    "experiencia": "Maclear es una plataforma joven y poco a poco ha ido incorporando mejoras. Su mercado secundario me resulta especialmente fácil de utilizar."
+  },
+  "plataforma_debitum": {
+    "nombre": "Debitum",
+    "resumen": "Plataforma fundada en 2018, con sede en Lituania. Se diferencia por centrarse en financiación a empresas en lugar de particulares, ofreciendo préstamos empresariales con garantías.",
+    "producto": "Préstamos empresariales garantizados, facturación, líneas de crédito para empresas.",
+    "puntos_fuertes": [
+      "Enfoque en empresas con garantías asociadas.",
+      "Interfaz intuitiva y fácil de navegar.",
+      "Posibilidad de diversificar en un segmento diferente al consumo."
+    ],
+    "riesgos": [
+      "Menor número de préstamos disponibles que plataformas más grandes.",
+      "Riesgo asociado al mercado empresarial.",
+      "Garantías no siempre ejecutables con facilidad."
+    ],
+    "perfil": "Inversores que buscan exponerse al segmento empresarial con garantías, fuera del préstamo al consumo.",
+    "experiencia": "Me parece diferente a otras plataformas porque se centra en financiación a empresas en lugar de particulares. En mi experiencia ha funcionado bien y su web me resulta intuitiva."
+  },
+  "plataforma_loanch": {
+    "nombre": "Loanch",
+    "resumen": "Plataforma fundada en 2018, con sede en Georgia. Opera préstamos rápidos a corto plazo, dirigidos a necesidades urgentes de liquidez. No está regulada por autoridades financieras europeas.",
+    "producto": "Préstamos rápidos (short-term) a corto plazo, con importes pequeños y alta rotación.",
+    "puntos_fuertes": [
+      "Rentabilidades potencialmente altas a corto plazo.",
+      "Préstamos de duración muy breve, lo que reduce el periodo de exposición.",
+      "Alta rotación que permite reinvertir con frecuencia."
+    ],
+    "riesgos": [
+      "No regulada en la UE, lo que implica menor supervisión.",
+      "Rentabilidades pasadas no garantizan resultados futuros.",
+      "Posible menor estabilidad frente a plataformas reguladas."
+    ],
+    "perfil": "Inversores dispuestos a asumir mayor riesgo a cambio de potenciales rentabilidades altas en plazos cortos.",
+    "experiencia": "Desde el primer momento me ha ofrecido rentabilidades altas en préstamos a muy corto plazo. Dicho esto, es una plataforma con menor trayectoria que otras y conviene seguirla de cerca. En mi experiencia personal funciona, pero cada uno debe valorar su propio perfil de riesgo."
+  },
+  "plataforma_8lends": {
+    "nombre": "8lends",
+    "resumen": "Plataforma del mismo grupo que Maclear, que opera con criptoactivos y stablecoins (USDC). Requiere gestionar una cartera de criptomonedas para operar. Es una plataforma más reciente y con un enfoque particular.",
+    "producto": "Préstamos respaldados por activos digitales, recompensas en tokens de la plataforma.",
+    "puntos_fuertes": [
+      "Potencial de recompensas adicionales a través de tokens de la plataforma.",
+      "Pertenece al mismo grupo que Maclear, con equipo conocido."
+    ],
+    "riesgos": [
+      "Requiere manejo de criptomonedas, lo que añade complejidad.",
+      "Exposición a volatilidad de criptoactivos.",
+      "Procesos de seguridad que pueden resultar engorrosos.",
+      "Las recompensas en tokens no son equivalentes a rentabilidad garantizada."
+    ],
+    "perfil": "Inversores con experiencia en criptomonedas que buscan plataformas que integren DeFi con lending tradicional.",
+    "experiencia": "8lends pertenece al mismo grupo que Maclear y me parece algo más compleja de usar, porque exige manejar cartera de criptomonedas, convertir fondos a USDC y gestionar manualmente inversiones y retiradas. Esto la hace más engorrosa y a veces más compleja por sus protocolos de seguridad, aunque personalmente me siento cómodo usándola. Además, incluye recompensas en tokens de la plataforma, algo que no debe confundirse con rentabilidad garantizada."
+  },
+  "revolut": {
+    "title": "Revolut y Revolut Metal",
+    "intro": "Revolut es una aplicación financiera que ofrece servicios bancarios, cambio de divisas y otras herramientas financieras. Su plan Metal incluye características que pueden resultar útiles para inversores en plataformas P2P europeas.",
+    "para_que": "¿Por qué puede interesar a un inversor P2P?",
+    "razones": [
+      "Cambio de divisas con condiciones preferentes en planes premium (Metal).",
+      "Posibilidad de mantener y gestionar múltiples divisas en una sola cuenta.",
+      "Transferencias SEPA instantáneas a plataformas europeas.",
+      "Seguro de dispositivos móviles incluido en planes seleccionados."
+    ],
+    "condiciones": "Las condiciones, beneficios y campañas de Revolut pueden variar según el plan, el país y el momento. No asumas que todas las ventajas están disponibles permanentemente ni en todas las regiones. Es recomendable consultar la web oficial para conocer los términos vigentes.",
+    "nota_referido": "Los requisitos y recompensas del programa de referido pueden cambiar según campaña y país. Infórmate de los términos actuales antes de usar un enlace de referido.",
+    "cta": "Más información en Revolut"
+  },
+  "rendimiento": {
+    "title": "Rendimiento de mis inversiones",
+    "intro": "Evolución mensual del rendimiento porcentual anualizado (extrapolación a 12 meses) de mi cartera en cada plataforma.",
+    "kpi": {
+      "ultimo": "Último dato",
+      "maximo": "Máximo histórico",
+      "minimo": "Mínimo histórico",
+      "media": "Media del periodo"
+    },
+    "tabla": "Tabla histórica",
+    "fecha": "Fecha",
+    "sin_datos": "Sin datos",
+    "metodologia": {
+      "title": "Nota metodológica",
+      "texto": "Los datos mostrados representan una extrapolación simple del rendimiento mensual a 12 meses. No equivalen necesariamente al rendimiento real anual obtenido, ya que no tienen en cuenta retiradas, aportaciones adicionales, comisiones ni efectos compuestos. La cifra sirve como referencia para observar tendencias, no como medida exacta de rentabilidad."
+    },
+    "cargando": "Cargando datos...",
+    "error_csv": "No se pudieron cargar los datos. Revisa que el archivo CSV esté en la ruta correcta."
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "preguntas": [
+      {
+        "p": "¿Qué es el P2P lending?",
+        "r": "Es un modelo de financiación que conecta inversores con prestatarios a través de plataformas online, sin intermediarios bancarios tradicionales."
+      },
+      {
+        "p": "¿Es seguro invertir en P2P lending?",
+        "r": "Ninguna inversión es completamente segura. El P2P lending conlleva riesgos reales, incluyendo la posible pérdida total del capital invertido. La diversificación y la investigación previa ayudan a gestionarlos, pero no los eliminan."
+      },
+      {
+        "p": "¿El P2P lending está regulado?",
+        "r": "Depende de la plataforma y el país. Algunas plataformas están reguladas por autoridades financieras europeas, otras no. La regulación aporta supervisión, pero no elimina los riesgos de la inversión."
+      },
+      {
+        "p": "¿Cuánto capital necesito para empezar?",
+        "r": "Muchas plataformas permiten empezar con importes pequeños, desde 10-50 €. No obstante, para diversificar adecuadamente es recomendable un capital mayor, aunque no hay una cifra mínima universal."
+      },
+      {
+        "p": "¿Qué riesgos principales existen?",
+        "r": "Los principales son el riesgo de impago (el prestatario no devuelve el préstamo), riesgo de liquidez (no poder vender préstamos), riesgo de plataforma y riesgo de divisa."
+      },
+      {
+        "p": "¿Puedo vender mis préstamos antes de que venzan?",
+        "r": "En plataformas con mercado secundario, sí. Sin embargo, la liquidez no está garantizada: puede haber momentos en que sea difícil vender o hacerlo solo con descuento."
+      },
+      {
+        "p": "¿Cómo afecta la divisa a mis inversiones?",
+        "r": "Si inviertes en préstamos en monedas distintas a la tuya, las fluctuaciones del tipo de cambio pueden afectar tanto positiva como negativamente a tu rentabilidad."
+      },
+      {
+        "p": "¿Cómo tributan las ganancias del P2P lending?",
+        "r": "Depende de tu país de residencia fiscal. La fiscalidad del P2P lending varía según la legislación local. No asumas criterios generales; consulta con un asesor fiscal para tu caso concreto."
+      }
+    ]
+  },
+  "footer": {
+    "aviso_legal": "Este sitio es un proyecto personal informativo. La información contenida en él no constituye asesoramiento financiero ni recomendación de inversión.",
+    "afiliacion": "Algunos enlaces de esta web son enlaces de afiliación o referido. Si los utilizas, es posible que reciba una compensación sin coste adicional para ti.",
+    "no_asesoramiento": "Ningún contenido de esta web debe interpretarse como asesoramiento financiero, jurídico o fiscal. Cada inversor debe realizar su propia investigación y, si lo necesita, consultar con un profesional.",
+    "copyright": "The P2P Experience. Proyecto personal sin ánimo comercial."
+  },
+  "theme": {
+    "light": "Modo claro",
+    "dark": "Modo oscuro"
+  },
+  "general": {
+    "cargando": "Cargando..."
+  }
+}

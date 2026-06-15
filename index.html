@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="site.title">The P2P Experience</title>
+<meta name="description" content="Seguimiento personal e información sobre inversión en préstamos P2P">
+<meta property="og:title" content="The P2P Experience">
+<meta property="og:description" content="Un recorrido personal por la inversión en préstamos P2P.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ─── Header ───────────────────────────────────────────────── -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#" class="site-logo">The P2P Experience</a>
+
+    <button class="hamburger" id="hamburger" aria-expanded="false" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-menu" id="nav-menu">
+      <a href="#que-es" data-i18n="nav.que-es">Qu&eacute; es el P2P</a>
+      <a href="#historia" data-i18n="nav.historia">Historia</a>
+      <a href="#regulacion" data-i18n="nav.regulacion">Regulaci&oacute;n y Riesgos</a>
+      <a href="#plataformas" data-i18n="nav.plataformas">Plataformas</a>
+      <a href="#revolut">Revolut</a>
+      <a href="#rendimiento" data-i18n="nav.rendimiento">Rendimiento</a>
+      <a href="#faq">FAQ</a>
+
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+
+      <div class="theme-toggle-wrapper">
+        <label class="theme-switch">
+          <input type="checkbox" id="theme-toggle">
+          <span class="theme-slider"></span>
+        </label>
+        <span class="theme-label" id="theme-label">Modo oscuro</span>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- ─── Hero ──────────────────────────────────────────────────── -->
+<section class="hero" id="hero">
+  <div class="container hero-content">
+    <h1 class="hero-title" data-i18n="hero.title">The P2P Experience</h1>
+    <p class="hero-subtitle" data-i18n="hero.subtitle">Un recorrido personal por la inversi&oacute;n en pr&eacute;stamos P2P, sin promesas vac&iacute;as ni verdades absolutas.</p>
+    <p class="hero-intro" data-i18n="hero.intro">Este sitio recoge mi experiencia invirtiendo en lending P2P desde 2017. Aqu&iacute; encontrar&aacute;s informaci&oacute;n, an&aacute;lisis y datos reales sobre las plataformas que uso, con un enfoque honesto y realista.</p>
+    <div class="hero-actions">
+      <a href="#plataformas" class="btn btn-primary" data-i18n="hero.cta_plataformas">Ver plataformas</a>
+      <a href="#rendimiento" class="btn btn-outline" data-i18n="hero.cta_rendimiento">Ver rendimiento</a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Qué es el P2P ─────────────────────────────────────────── -->
+<section class="section" id="que-es">
+  <div class="container">
+    <h2 class="section-title" data-i18n="quees.title">¿Qu&eacute; es el P2P Lending?</h2>
+    <p class="section-subtitle" data-i18n="quees.intro">El pr&eacute;stamo entre particulares, o P2P lending, conecta a inversores con prestatarios a trav&eacute;s de una plataforma online, eliminando intermediarios bancarios tradicionales.</p>
+
+    <div class="about-grid">
+      <div class="about-block">
+        <h3 data-i18n="quees.como_funciona.title">¿C&oacute;mo funciona?</h3>
+        <p data-i18n="quees.como_funciona.p1">Un inversor elige pr&eacute;stamos en los que quiere participar, normalmente desde importes peque&ntilde;os. La plataforma se encarga de la gesti&oacute;n del pr&eacute;stamo, los cobros y, en caso de impago, del proceso de recuperaci&oacute;n.</p>
+        <p style="margin-top:12px" data-i18n="quees.como_funciona.p2">El inversor obtiene un rendimiento a trav&eacute;s de los intereses que paga el prestatario. La plataforma cobra una comisi&oacute;n por su servicio.</p>
+      </div>
+
+      <div class="about-block">
+        <h3 data-i18n="quees.tipos.title">Tipos de pr&eacute;stamos</h3>
+        <ul>
+          <li data-i18n="quees.tipos.items[0]">Pr&eacute;stamos personales: los m&aacute;s comunes, para consumo o necesidades puntuales.</li>
+          <li data-i18n="quees.tipos.items[1]">Pr&eacute;stamos para empresas: enfocados a negocios que buscan financiaci&oacute;n.</li>
+          <li data-i18n="quees.tipos.items[2]">Pr&eacute;stamos inmobiliarios: respaldados por propiedades inmobiliarias.</li>
+          <li data-i18n="quees.tipos.items[3]">Pr&eacute;stamos r&aacute;pidos (short-term): de corta duraci&oacute;n, con tipos de inter&eacute;s m&aacute;s altos.</li>
+        </ul>
+      </div>
+
+      <div class="about-block">
+        <h3 data-i18n="quees.ventajas.title">Ventajas potenciales</h3>
+        <ul>
+          <li data-i18n="quees.ventajas.items[0]">Rentabilidades potencialmente m&aacute;s altas que productos bancarios tradicionales.</li>
+          <li data-i18n="quees.ventajas.items[1]">Posibilidad de diversificar con importes peque&ntilde;os.</li>
+          <li data-i18n="quees.ventajas.items[2]">Control sobre los pr&eacute;stamos en los que se invierte.</li>
+          <li data-i18n="quees.ventajas.items[3]">Mercado secundario en algunas plataformas para vender pr&eacute;stamos antes de su vencimiento.</li>
+        </ul>
+      </div>
+
+      <div class="about-block">
+        <h3 data-i18n="quees.riesgos.title">Riesgos principales</h3>
+        <ul>
+          <li data-i18n="quees.riesgos.items[0]">Riesgo de impago: el prestatario puede no devolver el pr&eacute;stamo.</li>
+          <li data-i18n="quees.riesgos.items[1]">Riesgo de liquidez: no siempre es f&aacute;cil vender pr&eacute;stamos en el mercado secundario.</li>
+          <li data-i18n="quees.riesgos.items[2]">Riesgo de plataforma: la plataforma puede quebrar o cesar su actividad.</li>
+          <li data-i18n="quees.riesgos.items[3]">Riesgo de divisa: invertir en otras monedas puede afectar a la rentabilidad.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="about-block" style="margin-top:32px">
+      <h3 data-i18n="quees.diferencias.title">Diferencias frente a otras inversiones</h3>
+      <ul>
+        <li data-i18n="quees.diferencias.items[0]">No est&aacute; garantizado como un dep&oacute;sito bancario.</li>
+        <li data-i18n="quees.diferencias.items[1]">No cotiza en bolsa como una acci&oacute;n.</li>
+        <li data-i18n="quees.diferencias.items[2]">Ofrece m&aacute;s control que un fondo de inversi&oacute;n, pero tambi&eacute;n m&aacute;s responsabilidad.</li>
+        <li data-i18n="quees.diferencias.items[3]">Los rendimientos no est&aacute;n asegurados y pueden variar significativamente.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Historia ──────────────────────────────────────────────── -->
+<section class="section section-alt" id="historia">
+  <div class="container">
+    <h2 class="section-title" data-i18n="historia.title">Breve historia del P2P Lending</h2>
+    <p class="section-subtitle" data-i18n="historia.intro">El P2P lending naci&oacute; a mediados de los 2000 como alternativa a la banca tradicional, aprovechando la tecnolog&iacute;a para conectar directamente a quienes necesitan financiaci&oacute;n con quienes buscan rentabilidad.</p>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-year">2005</div>
+        <div class="timeline-text" data-i18n="historia.hitos[0].text">Aparecen las primeras plataformas en Reino Unido y Estados Unidos, sentando las bases del modelo.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2008-2010</div>
+        <div class="timeline-text" data-i18n="historia.hitos[1].text">Tras la crisis financiera, el sector gana tracci&oacute;n como alternativa a los bancos. Surgen nuevas plataformas en Europa.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2014-2017</div>
+        <div class="timeline-text" data-i18n="historia.hitos[2].text">El sector vive un crecimiento acelerado. Plataformas como Mintos y Bondora se consolidan en Europa. Miles de inversores empiezan a diversificar hacia pr&eacute;stamos P2P.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2018-2020</div>
+        <div class="timeline-text" data-i18n="historia.hitos[3].text">Aumenta la regulaci&oacute;n en la UE. El mercado secundario se populariza. La pandemia pone a prueba la capacidad de recuperaci&oacute;n del sector.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2021-presente</div>
+        <div class="timeline-text" data-i18n="historia.hitos[4].text">El sector madura con mayor regulaci&oacute;n, entrada de inversores institucionales y plataformas cada vez m&aacute;s sofisticadas. Siguen existiendo riesgos, pero el ecosistema es m&aacute;s s&oacute;lido que en sus inicios.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Regulación y Riesgos ──────────────────────────────────── -->
+<section class="section" id="regulacion">
+  <div class="container">
+    <h2 class="section-title" data-i18n="regulacion.title">Regulaci&oacute;n y Riesgos</h2>
+
+    <div class="regulation-intro" data-i18n="regulacion.declaracion">La informaci&oacute;n de esta secci&oacute;n es meramente informativa. No constituye asesoramiento financiero ni recomendaci&oacute;n de inversi&oacute;n.</div>
+
+    <div class="regulation-grid">
+      <div class="regulation-block">
+        <h3 data-i18n="regulacion.reguladas.title">Plataformas reguladas</h3>
+        <p data-i18n="regulacion.reguladas.text">Algunas plataformas operan bajo licencias de autoridades financieras europeas, lo que implica cumplir con requisitos de transparencia, capital m&iacute;nimo y protecci&oacute;n al inversor. Esto no elimina los riesgos, pero ofrece un marco de supervisi&oacute;n.</p>
+      </div>
+      <div class="regulation-block">
+        <h3 data-i18n="regulacion.no_reguladas.title">Plataformas no reguladas</h3>
+        <p data-i18n="regulacion.no_reguladas.text">Otras plataformas operan sin licencia financiera espec&iacute;fica, a menudo bajo legislaci&oacute;n de pa&iacute;ses con menor supervisi&oacute;n. Esto puede implicar mayor riesgo, aunque no necesariamente menor fiabilidad. Cada inversor debe evaluar cada caso.</p>
+      </div>
+    </div>
+
+    <h3 style="margin-bottom:20px" data-i18n="regulacion.riesgos_lista.title">Riesgos principales a considerar</h3>
+
+    <div class="risk-list">
+      <div class="risk-item">
+        <h4 data-i18n="regulacion.riesgos_lista.items[0].name">Riesgo de impago</h4>
+        <p data-i18n="regulacion.riesgos_lista.items[0].text">El prestatario no devuelve el pr&eacute;stamo. Las plataformas tienen procesos de recuperaci&oacute;n, pero no hay garant&iacute;a de recuperar el capital.</p>
+      </div>
+      <div class="risk-item">
+        <h4 data-i18n="regulacion.riesgos_lista.items[1].name">Riesgo de liquidez</h4>
+        <p data-i18n="regulacion.riesgos_lista.items[1].text">No siempre es posible vender pr&eacute;stamos en el mercado secundario. En momentos de crisis, la liquidez puede reducirse dr&aacute;sticamente.</p>
+      </div>
+      <div class="risk-item">
+        <h4 data-i18n="regulacion.riesgos_lista.items[2].name">Riesgo de concentraci&oacute;n</h4>
+        <p data-i18n="regulacion.riesgos_lista.items[2].text">Invertir en pocos pr&eacute;stamos o en una sola plataforma aumenta el riesgo. La diversificaci&oacute;n es clave.</p>
+      </div>
+      <div class="risk-item">
+        <h4 data-i18n="regulacion.riesgos_lista.items[3].name">Riesgo de divisa</h4>
+        <p data-i18n="regulacion.riesgos_lista.items[3].text">Invertir en pr&eacute;stamos en otras monedas (EUR, USD, GBP, etc.) expone a fluctuaciones del tipo de cambio.</p>
+      </div>
+      <div class="risk-item">
+        <h4 data-i18n="regulacion.riesgos_lista.items[4].name">Riesgo de plataforma</h4>
+        <p data-i18n="regulacion.riesgos_lista.items[4].text">La plataforma puede enfrentar problemas operativos, regulatorios o financieros que afecten a los inversores.</p>
+      </div>
+      <div class="risk-item">
+        <h4 data-i18n="regulacion.riesgos_lista.items[5].name">Riesgo de originador</h4>
+        <p data-i18n="regulacion.riesgos_lista.items[5].text">En plataformas que trabajan con entidades externas, la salud financiera de esas entidades afecta al riesgo de los pr&eacute;stamos.</p>
+      </div>
+    </div>
+
+    <div class="disclaimer-box" data-i18n="regulacion.disclaimer">
+      Invertir en pr&eacute;stamos P2P conlleva riesgos. No es un dep&oacute;sito bancario, no est&aacute; garantizado y puedes perder parte o la totalidad de tu capital. Esta web no ofrece asesoramiento financiero personalizado.
+    </div>
+  </div>
+</section>
+
+<!-- ─── Plataformas ───────────────────────────────────────────── -->
+<section class="section section-alt" id="plataformas">
+  <div class="container">
+    <h2 class="section-title" data-i18n="plataformas.title">Plataformas</h2>
+    <p class="section-subtitle" data-i18n="plataformas.intro">Fichas informativas y personales sobre las plataformas en las que invierto. Cada ficha combina informaci&oacute;n objetiva con mi experiencia personal, claramente diferenciada.</p>
+
+    <div class="platform-tabs">
+      <button class="tab-btn active" data-filter="all" data-i18n="plataformas.tabs.todas">Todas</button>
+      <button class="tab-btn" data-filter="regulated" data-i18n="plataformas.tabs.reguladas">Reguladas</button>
+      <button class="tab-btn" data-filter="unregulated" data-i18n="plataformas.tabs.no_reguladas">No reguladas</button>
+    </div>
+
+    <div class="platforms-grid" id="platforms-grid">
+
+    <!-- Bondora -->
+    <div class="platform-card" data-platform="bondora" data-category="regulated">
+      <div class="platform-header">
+        <span class="platform-name" data-i18n="plataforma_bondora.nombre">Bondora</span>
+        <span class="platform-badge badge-regulated">Regulada</span>
+        <button class="platform-toggle" aria-expanded="false" data-i18n="plataformas.ver_ficha">Ver detalle</button>
+      </div>
+      <div class="platform-content">
+        <div class="platform-body">
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.objetivo">Informaci&oacute;n general</h4>
+            <p data-i18n="plataforma_bondora.resumen">Plataforma con sede en Estonia, fundada en 2008. Fue una de las pioneras en Europa y ofrece pr&eacute;stamos personales, adem&aacute;s de su producto Go &amp; Grow, una opci&oacute;n automatizada que busca simplificar la inversi&oacute;n. Opera bajo licencia de la Autoridad de Mercados Financieros de Estonia.</p>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.puntos_fuertes">Puntos fuertes</h4>
+            <ul>
+              <li data-i18n="plataforma_bondora.puntos_fuertes[0]">Plataforma consolidada con a&ntilde;os de trayectoria.</li>
+              <li data-i18n="plataforma_bondora.puntos_fuertes[1]">Producto Go &amp; Grow sencillo para inversores que buscan automatizaci&oacute;n.</li>
+              <li data-i18n="plataforma_bondora.puntos_fuertes[2]">Mercado secundario activo para venta de pr&eacute;stamos.</li>
+              <li data-i18n="plataforma_bondora.puntos_fuertes[3]">Opera bajo supervisi&oacute;n financiera en Estonia.</li>
+            </ul>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.riesgos_limitaciones">Riesgos o limitaciones</h4>
+            <ul>
+              <li data-i18n="plataforma_bondora.riesgos[0]">Hist&oacute;rico de rendimientos variables, con periodos de rentabilidades negativas.</li>
+              <li data-i18n="plataforma_bondora.riesgos[1]">Exposici&oacute;n significativa a mercados de riesgo crediticio.</li>
+              <li data-i18n="plataforma_bondora.riesgos[2]">La rentabilidad de Go &amp; Grow no est&aacute; garantizada y puede ajustarse.</li>
+            </ul>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.perfil">¿Para qui&eacute;n?</h4>
+            <p data-i18n="plataforma_bondora.perfil">Inversores que buscan una plataforma con trayectoria y producto automatizado, asumiendo los riesgos del mercado de pr&eacute;stamos personales.</p>
+          </div>
+          <div class="experience-box">
+            <h4 data-i18n="plataformas.experiencia">Mi experiencia</h4>
+            <p data-i18n="plataforma_bondora.experiencia">Bondora fue la primera plataforma de la que o&iacute; hablar y en la que invert&iacute;. En ella aprend&iacute; sobre riesgos, mercado secundario y venta de pr&eacute;stamos con descuento. Como estaba en fase de aprendizaje, mi rendimiento fue decayendo y poco a poco fui prefiriendo plataformas que me resultaban m&aacute;s c&oacute;modas de usar, como Mintos o Twino. Actualmente mi cartera en Bondora est&aacute; centrada en Go &amp; Grow como opci&oacute;n sencilla.</p>
+          </div>
+          <div class="platform-links">
+            <a href="https://bondora.com" target="_blank" rel="noopener noreferrer" data-i18n="plataformas.web_oficial">Web oficial</a>
+            <a data-referral="bondora" target="_blank" rel="noopener noreferrer" data-i18n="plataformas.enlace_referido">Enlace de referido</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mintos -->
+    <div class="platform-card" data-platform="mintos" data-category="regulated">
+      <div class="platform-header">
+        <span class="platform-name" data-i18n="plataforma_mintos.nombre">Mintos</span>
+        <span class="platform-badge badge-regulated">Regulada</span>
+        <button class="platform-toggle" aria-expanded="false" data-i18n="plataformas.ver_ficha">Ver detalle</button>
+      </div>
+      <div class="platform-content">
+        <div class="platform-body">
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.objetivo">Informaci&oacute;n general</h4>
+            <p data-i18n="plataforma_mintos.resumen">Plataforma con sede en Letonia, fundada en 2015. Es una de las m&aacute;s conocidas del sector y ofrece pr&eacute;stamos de diversas entidades originadoras. Opera bajo licencia de la Autoridad de Mercados Financieros y de Capital de Letonia.</p>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.puntos_fuertes">Puntos fuertes</h4>
+            <ul>
+              <li data-i18n="plataforma_mintos.puntos_fuertes[0]">Plataforma con gran volumen de pr&eacute;stamos y diversidad de originadores.</li>
+              <li data-i18n="plataforma_mintos.puntos_fuertes[1]">Interfaz completa y herramientas de an&aacute;lisis.</li>
+              <li data-i18n="plataforma_mintos.puntos_fuertes[2]">Mercado secundario l&iacute;quido en condiciones normales.</li>
+              <li data-i18n="plataforma_mintos.puntos_fuertes[3]">Regulada en la UE con licencia de plataforma de financiaci&oacute;n participativa.</li>
+            </ul>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.riesgos_limitaciones">Riesgos o limitaciones</h4>
+            <ul>
+              <li data-i18n="plataforma_mintos.riesgos[0]">Dependencia de originadores externos; la salud de estos afecta al riesgo de los pr&eacute;stamos.</li>
+              <li data-i18n="plataforma_mintos.riesgos[1]">Ha habido casos de originadores con problemas de pago.</li>
+              <li data-i18n="plataforma_mintos.riesgos[2]">No todos los originadores est&aacute;n supervisados directamente por la plataforma.</li>
+            </ul>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.perfil">¿Para qui&eacute;n?</h4>
+            <p data-i18n="plataforma_mintos.perfil">Inversores que buscan variedad de productos, herramientas de an&aacute;lisis y mercados secundarios activos.</p>
+          </div>
+          <div class="experience-box">
+            <h4 data-i18n="plataformas.experiencia">Mi experiencia</h4>
+            <p data-i18n="plataforma_mintos.experiencia">Mintos es una de las plataformas m&aacute;s conocidas del sector, y durante mucho tiempo me ha dado buena rentabilidad. He tenido un problema con una entidad dentro de la plataforma que dej&oacute; de pagar, pero mi experiencia es que Mintos ha gestionado la recuperaci&oacute;n manteniendo informados a los inversores. Esto no significa que vaya a ser as&iacute; siempre, pero en mi caso ha sido llevadero.</p>
+          </div>
+          <div class="platform-links">
+            <a href="https://mintos.com" target="_blank" rel="noopener noreferrer" data-i18n="plataformas.web_oficial">Web oficial</a>
+            <a data-referral="mintos" target="_blank" rel="noopener noreferrer" data-i18n="plataformas.enlace_referido">Enlace de referido</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Twino -->
+    <div class="platform-card" data-platform="twino" data-category="regulated">
+      <div class="platform-header">
+        <span class="platform-name" data-i18n="plataforma_twino.nombre">Twino</span>
+        <span class="platform-badge badge-regulated">Regulada</span>
+        <button class="platform-toggle" aria-expanded="false" data-i18n="plataformas.ver_ficha">Ver detalle</button>
+      </div>
+      <div class="platform-content">
+        <div class="platform-body">
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.objetivo">Informaci&oacute;n general</h4>
+            <p data-i18n="plataforma_twino.resumen">Plataforma con sede en Letonia, fundada en 2016. Se centra en pr&eacute;stamos empresariales garantizados con activos y est&aacute; regulada por la Autoridad de Mercados Financieros y de Capital de Letonia.</p>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.puntos_fuertes">Puntos fuertes</h4>
+            <ul>
+              <li data-i18n="plataforma_twino.puntos_fuertes[0]">Enfoque en pr&eacute;stamos garantizados, lo que puede reducir el riesgo de impago.</li>
+              <li data-i18n="plataforma_twino.puntos_fuertes[1]">Plataforma regulada en la UE.</li>
+              <li data-i18n="plataforma_twino.puntos_fuertes[2]">Hist&oacute;ricamente rentabilidad m&aacute;s estable que otras plataformas.</li>
+            </ul>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.riesgos_limitaciones">Riesgos o limitaciones</h4>
+            <ul>
+              <li data-i18n="plataforma_twino.riesgos[0]">Las garant&iacute;as no siempre cubren la totalidad del pr&eacute;stamo en caso de impago.</li>
+              <li data-i18n="plataforma_twino.riesgos[1]">Menor variedad de productos que otras plataformas.</li>
+              <li data-i18n="plataforma_twino.riesgos[2]">Dependencia del mercado de pr&eacute;stamos empresariales.</li>
+            </ul>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.perfil">¿Para qui&eacute;n?</h4>
+            <p data-i18n="plataforma_twino.perfil">Inversores que prefieren un perfil m&aacute;s conservador dentro del P2P, con pr&eacute;stamos respaldados por activos.</p>
+          </div>
+          <div class="experience-box">
+            <h4 data-i18n="plataformas.experiencia">Mi experiencia</h4>
+            <p data-i18n="plataforma_twino.experiencia">Me parece una plataforma sencilla de usar y bastante constante en el tiempo. En mi caso no he tenido problemas relevantes.</p>
+          </div>
+          <div class="platform-links">
+            <a href="https://twino.com" target="_blank" rel="noopener noreferrer" data-i18n="plataformas.web_oficial">Web oficial</a>
+            <a data-referral="twino" target="_blank" rel="noopener noreferrer" data-i18n="plataformas.enlace_referido">Enlace de referido</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Maclear -->
+    <div class="platform-card" data-platform="maclear" data-category="unregulated">
+      <div class="platform-header">
+        <span class="platform-name" data-i18n="plataforma_maclear.nombre">Maclear</span>
+        <span class="platform-badge badge-unregulated">No regulada</span>
+        <button class="platform-toggle" aria-expanded="false" data-i18n="plataformas.ver_ficha">Ver detalle</button>
+      </div>
+      <div class="platform-content">
+        <div class="platform-body">
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.objetivo">Informaci&oacute;n general</h4>
+            <p data-i18n="plataforma_maclear.resumen">Plataforma fundada en 2021, con sede en Reino Unido. Opera en el espacio de pr&eacute;stamos respaldados por criptoactivos y cr&eacute;ditos. Es una plataforma relativamente joven en proceso de desarrollo de funcionalidades.</p>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.puntos_fuertes">Puntos fuertes</h4>
+            <ul>
+              <li data-i18n="plataforma_maclear.puntos_fuertes[0]">Mercado secundario que resulta f&aacute;cil de usar.</li>
+              <li data-i18n="plataforma_maclear.puntos_fuertes[1]">Equipo joven que va incorporando mejoras progresivamente.</li>
+            </ul>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.riesgos_limitaciones">Riesgos o limitaciones</h4>
+            <ul>
+              <li data-i18n="plataforma_maclear.riesgos[0]">Plataforma joven con menos trayectoria que otras del sector.</li>
+              <li data-i18n="plataforma_maclear.riesgos[1]">Exposici&oacute;n a criptoactivos y su volatilidad.</li>
+              <li data-i18n="plataforma_maclear.riesgos[2]">Menor volumen de pr&eacute;stamos y liquidez.</li>
+            </ul>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.perfil">¿Para qui&eacute;n?</h4>
+            <p data-i18n="plataforma_maclear.perfil">Inversores interesados en explorar plataformas m&aacute;s nuevas con exposici&oacute;n a activos digitales.</p>
+          </div>
+          <div class="experience-box">
+            <h4 data-i18n="plataformas.experiencia">Mi experiencia</h4>
+            <p data-i18n="plataforma_maclear.experiencia">Maclear es una plataforma joven y poco a poco ha ido incorporando mejoras. Su mercado secundario me resulta especialmente f&aacute;cil de utilizar.</p>
+          </div>
+          <div class="platform-links">
+            <a href="https://maclear.com" target="_blank" rel="noopener noreferrer" data-i18n="plataformas.web_oficial">Web oficial</a>
+            <a data-referral="maclear" target="_blank" rel="noopener noreferrer" data-i18n="plataformas.enlace_referido">Enlace de referido</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Debitum -->
+    <div class="platform-card" data-platform="debitum" data-category="unregulated">
+      <div class="platform-header">
+        <span class="platform-name" data-i18n="plataforma_debitum.nombre">Debitum</span>
+        <span class="platform-badge badge-unregulated">No regulada</span>
+        <button class="platform-toggle" aria-expanded="false" data-i18n="plataformas.ver_ficha">Ver detalle</button>
+      </div>
+      <div class="platform-content">
+        <div class="platform-body">
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.objetivo">Informaci&oacute;n general</h4>
+            <p data-i18n="plataforma_debitum.resumen">Plataforma fundada en 2018, con sede en Lituania. Se diferencia por centrarse en financiaci&oacute;n a empresas en lugar de particulares, ofreciendo pr&eacute;stamos empresariales con garant&iacute;as.</p>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.puntos_fuertes">Puntos fuertes</h4>
+            <ul>
+              <li data-i18n="plataforma_debitum.puntos_fuertes[0]">Enfoque en empresas con garant&iacute;as asociadas.</li>
+              <li data-i18n="plataforma_debitum.puntos_fuertes[1]">Interfaz intuitiva y f&aacute;cil de navegar.</li>
+              <li data-i18n="plataforma_debitum.puntos_fuertes[2]">Posibilidad de diversificar en un segmento diferente al consumo.</li>
+            </ul>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.riesgos_limitaciones">Riesgos o limitaciones</h4>
+            <ul>
+              <li data-i18n="plataforma_debitum.riesgos[0]">Menor n&uacute;mero de pr&eacute;stamos disponibles que plataformas m&aacute;s grandes.</li>
+              <li data-i18n="plataforma_debitum.riesgos[1]">Riesgo asociado al mercado empresarial.</li>
+              <li data-i18n="plataforma_debitum.riesgos[2]">Garant&iacute;as no siempre ejecutables con facilidad.</li>
+            </ul>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.perfil">¿Para qui&eacute;n?</h4>
+            <p data-i18n="plataforma_debitum.perfil">Inversores que buscan exponerse al segmento empresarial con garant&iacute;as, fuera del pr&eacute;stamo al consumo.</p>
+          </div>
+          <div class="experience-box">
+            <h4 data-i18n="plataformas.experiencia">Mi experiencia</h4>
+            <p data-i18n="plataforma_debitum.experiencia">Me parece diferente a otras plataformas porque se centra en financiaci&oacute;n a empresas en lugar de particulares. En mi experiencia ha funcionado bien y su web me resulta intuitiva.</p>
+          </div>
+          <div class="platform-links">
+            <a href="https://debitum.com" target="_blank" rel="noopener noreferrer" data-i18n="plataformas.web_oficial">Web oficial</a>
+            <a data-referral="debitum" target="_blank" rel="noopener noreferrer" data-i18n="plataformas.enlace_referido">Enlace de referido</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Loanch -->
+    <div class="platform-card" data-platform="loanch" data-category="unregulated">
+      <div class="platform-header">
+        <span class="platform-name" data-i18n="plataforma_loanch.nombre">Loanch</span>
+        <span class="platform-badge badge-unregulated">No regulada</span>
+        <button class="platform-toggle" aria-expanded="false" data-i18n="plataformas.ver_ficha">Ver detalle</button>
+      </div>
+      <div class="platform-content">
+        <div class="platform-body">
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.objetivo">Informaci&oacute;n general</h4>
+            <p data-i18n="plataforma_loanch.resumen">Plataforma fundada en 2018, con sede en Georgia. Opera pr&eacute;stamos r&aacute;pidos a corto plazo, dirigidos a necesidades urgentes de liquidez. No est&aacute; regulada por autoridades financieras europeas.</p>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.puntos_fuertes">Puntos fuertes</h4>
+            <ul>
+              <li data-i18n="plataforma_loanch.puntos_fuertes[0]">Rentabilidades potencialmente altas a corto plazo.</li>
+              <li data-i18n="plataforma_loanch.puntos_fuertes[1]">Pr&eacute;stamos de duraci&oacute;n muy breve, lo que reduce el periodo de exposici&oacute;n.</li>
+              <li data-i18n="plataforma_loanch.puntos_fuertes[2]">Alta rotaci&oacute;n que permite reinvertir con frecuencia.</li>
+            </ul>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.riesgos_limitaciones">Riesgos o limitaciones</h4>
+            <ul>
+              <li data-i18n="plataforma_loanch.riesgos[0]">No regulada en la UE, lo que implica menor supervisi&oacute;n.</li>
+              <li data-i18n="plataforma_loanch.riesgos[1]">Rentabilidades pasadas no garantizan resultados futuros.</li>
+              <li data-i18n="plataforma_loanch.riesgos[2]">Posible menor estabilidad frente a plataformas reguladas.</li>
+            </ul>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.perfil">¿Para qui&eacute;n?</h4>
+            <p data-i18n="plataforma_loanch.perfil">Inversores dispuestos a asumir mayor riesgo a cambio de potenciales rentabilidades altas en plazos cortos.</p>
+          </div>
+          <div class="experience-box">
+            <h4 data-i18n="plataformas.experiencia">Mi experiencia</h4>
+            <p data-i18n="plataforma_loanch.experiencia">Desde el primer momento me ha ofrecido rentabilidades altas en pr&eacute;stamos a muy corto plazo. Dicho esto, es una plataforma con menor trayectoria que otras y conviene seguirla de cerca. En mi experiencia personal funciona, pero cada uno debe valorar su propio perfil de riesgo.</p>
+          </div>
+          <div class="platform-links">
+            <a href="https://loanch.com" target="_blank" rel="noopener noreferrer" data-i18n="plataformas.web_oficial">Web oficial</a>
+            <a data-referral="loanch" target="_blank" rel="noopener noreferrer" data-i18n="plataformas.enlace_referido">Enlace de referido</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 8lends -->
+    <div class="platform-card" data-platform="8lends" data-category="unregulated">
+      <div class="platform-header">
+        <span class="platform-name" data-i18n="plataforma_8lends.nombre">8lends</span>
+        <span class="platform-badge badge-unregulated">No regulada</span>
+        <button class="platform-toggle" aria-expanded="false" data-i18n="plataformas.ver_ficha">Ver detalle</button>
+      </div>
+      <div class="platform-content">
+        <div class="platform-body">
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.objetivo">Informaci&oacute;n general</h4>
+            <p data-i18n="plataforma_8lends.resumen">Plataforma del mismo grupo que Maclear, que opera con criptoactivos y stablecoins (USDC). Requiere gestionar una cartera de criptomonedas para operar. Es una plataforma m&aacute;s reciente y con un enfoque particular.</p>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.puntos_fuertes">Puntos fuertes</h4>
+            <ul>
+              <li data-i18n="plataforma_8lends.puntos_fuertes[0]">Potencial de recompensas adicionales a trav&eacute;s de tokens de la plataforma.</li>
+              <li data-i18n="plataforma_8lends.puntos_fuertes[1]">Pertenece al mismo grupo que Maclear, con equipo conocido.</li>
+            </ul>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.riesgos_limitaciones">Riesgos o limitaciones</h4>
+            <ul>
+              <li data-i18n="plataforma_8lends.riesgos[0]">Requiere manejo de criptomonedas, lo que a&ntilde;ade complejidad.</li>
+              <li data-i18n="plataforma_8lends.riesgos[1]">Exposici&oacute;n a volatilidad de criptoactivos.</li>
+              <li data-i18n="plataforma_8lends.riesgos[2]">Procesos de seguridad que pueden resultar engorrosos.</li>
+              <li data-i18n="plataforma_8lends.riesgos[3]">Las recompensas en tokens no son equivalentes a rentabilidad garantizada.</li>
+            </ul>
+          </div>
+          <div class="platform-section">
+            <h4 data-i18n="plataformas.perfil">¿Para qui&eacute;n?</h4>
+            <p data-i18n="plataforma_8lends.perfil">Inversores con experiencia en criptomonedas que buscan plataformas que integren DeFi con lending tradicional.</p>
+          </div>
+          <div class="experience-box">
+            <h4 data-i18n="plataformas.experiencia">Mi experiencia</h4>
+            <p data-i18n="plataforma_8lends.experiencia">8lends pertenece al mismo grupo que Maclear y me parece algo m&aacute;s compleja de usar, porque exige manejar cartera de criptomonedas, convertir fondos a USDC y gestionar manualmente inversiones y retiradas. Esto la hace m&aacute;s engorrosa y a veces m&aacute;s compleja por sus protocolos de seguridad, aunque personalmente me siento c&oacute;modo us&aacute;ndola. Adem&aacute;s, incluye recompensas en tokens de la plataforma, algo que no debe confundirse con rentabilidad garantizada.</p>
+          </div>
+          <div class="platform-links">
+            <a href="https://8lends.com" target="_blank" rel="noopener noreferrer" data-i18n="plataformas.web_oficial">Web oficial</a>
+            <a data-referral="8lends" target="_blank" rel="noopener noreferrer" data-i18n="plataformas.enlace_referido">Enlace de referido</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+    <div class="referral-note" data-i18n="plataformas.nota_referido">
+      Algunos enlaces de la web son enlaces de referido o afiliaci&oacute;n. Si los usas, es posible que reciba una compensaci&oacute;n, sin coste adicional para ti. Inf&oacute;rmate de las condiciones vigentes en cada programa.
+    </div>
+  </div>
+</section>
+
+<!-- ─── Revolut ───────────────────────────────────────────────── -->
+<section class="section" id="revolut">
+  <div class="container">
+    <h2 class="section-title" data-i18n="revolut.title">Revolut y Revolut Metal</h2>
+    <p class="section-subtitle" data-i18n="revolut.intro">Revolut es una aplicaci&oacute;n financiera que ofrece servicios bancarios, cambio de divisas y otras herramientas financieras. Su plan Metal incluye caracter&iacute;sticas que pueden resultar &uacute;tiles para inversores en plataformas P2P europeas.</p>
+
+    <h3 style="margin-bottom:16px;font-size:1.1rem" data-i18n="revolut.para_que">¿Por qu&eacute; puede interesar a un inversor P2P?</h3>
+
+    <div class="revolut-reasons">
+      <div class="revolut-reason">
+        <h4>1.</h4>
+        <p data-i18n="revolut.razones[0]">Cambio de divisas con condiciones preferentes en planes premium (Metal).</p>
+      </div>
+      <div class="revolut-reason">
+        <h4>2.</h4>
+        <p data-i18n="revolut.razones[1]">Posibilidad de mantener y gestionar m&uacute;ltiples divisas en una sola cuenta.</p>
+      </div>
+      <div class="revolut-reason">
+        <h4>3.</h4>
+        <p data-i18n="revolut.razones[2]">Transferencias SEPA instant&aacute;neas a plataformas europeas.</p>
+      </div>
+      <div class="revolut-reason">
+        <h4>4.</h4>
+        <p data-i18n="revolut.razones[3]">Seguro de dispositivos m&oacute;viles incluido en planes seleccionados.</p>
+      </div>
+    </div>
+
+    <div class="revolut-note" data-i18n="revolut.condiciones">
+      Las condiciones, beneficios y campa&ntilde;as de Revolut pueden variar seg&uacute;n el plan, el pa&iacute;s y el momento. No asumas que todas las ventajas est&aacute;n disponibles permanentemente ni en todas las regiones. Es recomendable consultar la web oficial para conocer los t&eacute;rminos vigentes.
+    </div>
+
+    <div class="revolut-note" style="margin-bottom:20px" data-i18n="revolut.nota_referido">
+      Los requisitos y recompensas del programa de referido pueden cambiar seg&uacute;n campa&ntilde;a y pa&iacute;s. Inf&oacute;rmate de los t&eacute;rminos actuales antes de usar un enlace de referido.
+    </div>
+
+    <a data-referral="revolut" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-i18n="revolut.cta">M&aacute;s informaci&oacute;n en Revolut</a>
+  </div>
+</section>
+
+<!-- ─── Rendimiento ───────────────────────────────────────────── -->
+<section class="section section-alt" id="rendimiento">
+  <div class="container">
+    <h2 class="section-title" data-i18n="rendimiento.title">Rendimiento de mis inversiones</h2>
+    <p class="section-subtitle" data-i18n="rendimiento.intro">Evoluci&oacute;n mensual del rendimiento porcentual anualizado (extrapolaci&oacute;n a 12 meses) de mi cartera en cada plataforma.</p>
+
+    <div class="perf-loading" id="csv-loading" data-i18n="rendimiento.cargando">Cargando datos...</div>
+    <div class="perf-error" id="csv-error" data-i18n="rendimiento.error_csv">No se pudieron cargar los datos. Revisa que el archivo CSV est&eacute; en la ruta correcta.</div>
+
+    <div id="kpi-container" class="kpi-grid"></div>
+
+    <div id="chart-container" class="chart-wrapper">
+      <canvas id="main-chart"></canvas>
+    </div>
+
+    <h3 style="margin-bottom:16px" data-i18n="rendimiento.tabla">Tabla hist&oacute;rica</h3>
+    <div id="table-container"></div>
+
+    <div class="methodology-box">
+      <h4 data-i18n="rendimiento.metodologia.title">Nota metodol&oacute;gica</h4>
+      <p data-i18n="rendimiento.metodologia.texto">Los datos mostrados representan una extrapolaci&oacute;n simple del rendimiento mensual a 12 meses. No equivalen necesariamente al rendimiento real anual obtenido, ya que no tienen en cuenta retiradas, aportaciones adicionales, comisiones ni efectos compuestos. La cifra sirve como referencia para observar tendencias, no como medida exacta de rentabilidad.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FAQ ───────────────────────────────────────────────────── -->
+<section class="section" id="faq">
+  <div class="container">
+    <h2 class="section-title text-center" data-i18n="faq.title">Preguntas frecuentes</h2>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span data-i18n="faq.preguntas[0].p">¿Qu&eacute; es el P2P lending?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div data-i18n="faq.preguntas[0].r">Es un modelo de financiaci&oacute;n que conecta inversores con prestatarios a trav&eacute;s de plataformas online, sin intermediarios bancarios tradicionales.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span data-i18n="faq.preguntas[1].p">¿Es seguro invertir en P2P lending?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div data-i18n="faq.preguntas[1].r">Ninguna inversi&oacute;n es completamente segura. El P2P lending conlleva riesgos reales, incluyendo la posible p&eacute;rdida total del capital invertido. La diversificaci&oacute;n y la investigaci&oacute;n previa ayudan a gestionarlos, pero no los eliminan.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span data-i18n="faq.preguntas[2].p">¿El P2P lending est&aacute; regulado?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div data-i18n="faq.preguntas[2].r">Depende de la plataforma y el pa&iacute;s. Algunas plataformas est&aacute;n reguladas por autoridades financieras europeas, otras no. La regulaci&oacute;n aporta supervisi&oacute;n, pero no elimina los riesgos de la inversi&oacute;n.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span data-i18n="faq.preguntas[3].p">¿Cu&aacute;nto capital necesito para empezar?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div data-i18n="faq.preguntas[3].r">Muchas plataformas permiten empezar con importes peque&ntilde;os, desde 10-50 €. No obstante, para diversificar adecuadamente es recomendable un capital mayor, aunque no hay una cifra m&iacute;nima universal.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span data-i18n="faq.preguntas[4].p">¿Qu&eacute; riesgos principales existen?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div data-i18n="faq.preguntas[4].r">Los principales son el riesgo de impago (el prestatario no devuelve el pr&eacute;stamo), riesgo de liquidez (no poder vender pr&eacute;stamos), riesgo de plataforma y riesgo de divisa.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span data-i18n="faq.preguntas[5].p">¿Puedo vender mis pr&eacute;stamos antes de que venzan?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div data-i18n="faq.preguntas[5].r">En plataformas con mercado secundario, s&iacute;. Sin embargo, la liquidez no est&aacute; garantizada: puede haber momentos en que sea dif&iacute;cil vender o hacerlo solo con descuento.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span data-i18n="faq.preguntas[6].p">¿C&oacute;mo afecta la divisa a mis inversiones?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div data-i18n="faq.preguntas[6].r">Si inviertes en pr&eacute;stamos en monedas distintas a la tuya, las fluctuaciones del tipo de cambio pueden afectar tanto positiva como negativamente a tu rentabilidad.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span data-i18n="faq.preguntas[7].p">¿C&oacute;mo tributan las ganancias del P2P lending?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div data-i18n="faq.preguntas[7].r">Depende de tu pa&iacute;s de residencia fiscal. La fiscalidad del P2P lending var&iacute;a seg&uacute;n la legislaci&oacute;n local. No asumas criterios generales; consulta con un asesor fiscal para tu caso concreto.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ─── Footer ───────────────────────────────────────────────── -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-block">
+        <p data-i18n="footer.aviso_legal">Este sitio es un proyecto personal informativo. La informaci&oacute;n contenida en &eacute;l no constituye asesoramiento financiero ni recomendaci&oacute;n de inversi&oacute;n.</p>
+        <p data-i18n="footer.afiliacion">Algunos enlaces de esta web son enlaces de afiliaci&oacute;n o referido. Si los utilizas, es posible que reciba una compensaci&oacute;n sin coste adicional para ti.</p>
+      </div>
+      <div class="footer-block">
+        <p data-i18n="footer.no_asesoramiento">Ning&uacute;n contenido de esta web debe interpretarse como asesoramiento financiero, jur&iacute;dico o fiscal. Cada inversor debe realizar su propia investigaci&oacute;n y, si lo necesita, consultar con un profesional.</p>
+      </div>
+    </div>
+    <div class="footer-bottom" data-i18n="footer.copyright">
+      The P2P Experience. Proyecto personal sin &aacute;nimo comercial.
+    </div>
+  </div>
+</footer>
+
+<!-- ─── Scripts ───────────────────────────────────────────────── -->
+<script src="js/config.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/csv-loader.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

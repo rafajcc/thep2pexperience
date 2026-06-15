@@ -1,0 +1,370 @@
+{
+  "site": {
+    "title": "The P2P Experience",
+    "description": "Personal tracking and information about P2P lending investment"
+  },
+  "nav": {
+    "hero": "Home",
+    "que-es": "What is P2P",
+    "historia": "History",
+    "regulacion": "Regulation & Risks",
+    "plataformas": "Platforms",
+    "revolut": "Revolut",
+    "rendimiento": "Performance",
+    "faq": "FAQ",
+    "lang": "Language"
+  },
+  "hero": {
+    "title": "The P2P Experience",
+    "subtitle": "A personal journey into P2P lending investment, without empty promises or absolute truths.",
+    "intro": "This site documents my experience investing in P2P lending since 2017. Here you will find information, analysis, and real data about the platforms I use, with an honest and realistic approach.",
+    "cta_plataformas": "View platforms",
+    "cta_rendimiento": "View performance"
+  },
+  "quees": {
+    "title": "What is P2P Lending?",
+    "intro": "Peer-to-peer lending connects investors with borrowers through an online platform, bypassing traditional banking intermediaries.",
+    "como_funciona": {
+      "title": "How it works?",
+      "p1": "An investor chooses loans to participate in, usually starting from small amounts. The platform handles loan management, collections, and in case of default, the recovery process.",
+      "p2": "The investor earns returns through the interest paid by the borrower. The platform charges a fee for its service."
+    },
+    "tipos": {
+      "title": "Types of loans",
+      "items": [
+        "Personal loans: the most common, for consumer or occasional needs.",
+        "Business loans: focused on businesses seeking financing.",
+        "Real estate loans: backed by property assets.",
+        "Short-term loans: short duration, with higher interest rates."
+      ]
+    },
+    "ventajas": {
+      "title": "Potential advantages",
+      "items": [
+        "Potentially higher returns than traditional banking products.",
+        "Ability to diversify with small amounts.",
+        "Control over which loans to invest in.",
+        "Secondary market on some platforms to sell loans before maturity."
+      ]
+    },
+    "riesgos": {
+      "title": "Main risks",
+      "items": [
+        "Default risk: the borrower may not repay the loan.",
+        "Liquidity risk: selling loans on the secondary market is not always easy.",
+        "Platform risk: the platform may go bankrupt or cease operations.",
+        "Currency risk: investing in other currencies can affect returns."
+      ]
+    },
+    "diferencias": {
+      "title": "Differences from other investments",
+      "items": [
+        "Not guaranteed like a bank deposit.",
+        "Does not trade on a stock exchange like a share.",
+        "Offers more control than a mutual fund, but also more responsibility.",
+        "Returns are not assured and can vary significantly."
+      ]
+    }
+  },
+  "historia": {
+    "title": "Brief history of P2P Lending",
+    "intro": "P2P lending emerged in the mid-2000s as an alternative to traditional banking, using technology to directly connect those needing financing with those seeking returns.",
+    "hitos": [
+      {
+        "year": "2005",
+        "text": "The first platforms appear in the UK and US, laying the foundations of the model."
+      },
+      {
+        "year": "2008-2010",
+        "text": "After the financial crisis, the sector gains traction as an alternative to banks. New platforms emerge across Europe."
+      },
+      {
+        "year": "2014-2017",
+        "text": "The sector experiences accelerated growth. Platforms like Mintos and Bondora consolidate in Europe. Thousands of investors begin diversifying into P2P loans."
+      },
+      {
+        "year": "2018-2020",
+        "text": "EU regulation increases. The secondary market becomes popular. The pandemic tests the sector's recovery capabilities."
+      },
+      {
+        "year": "2021-present",
+        "text": "The sector matures with greater regulation, institutional investor entry, and increasingly sophisticated platforms. Risks remain, but the ecosystem is more robust than in its early days."
+      }
+    ]
+  },
+  "regulacion": {
+    "title": "Regulation and Risks",
+    "declaracion": "The information in this section is for informational purposes only. It does not constitute financial advice or investment recommendation.",
+    "reguladas": {
+      "title": "Regulated platforms",
+      "text": "Some platforms operate under licenses from European financial authorities, which implies compliance with transparency, minimum capital, and investor protection requirements. This does not eliminate risks, but provides a supervisory framework."
+    },
+    "no_reguladas": {
+      "title": "Non-regulated platforms",
+      "text": "Other platforms operate without a specific financial license, often under the legislation of countries with less supervision. This may imply higher risk, though not necessarily lower reliability. Each investor should evaluate each case."
+    },
+    "riesgos_lista": {
+      "title": "Main risks to consider",
+      "items": [
+        {
+          "name": "Default risk",
+          "text": "The borrower fails to repay the loan. Platforms have recovery processes, but there is no guarantee of recovering the capital."
+        },
+        {
+          "name": "Liquidity risk",
+          "text": "It is not always possible to sell loans on the secondary market. In times of crisis, liquidity can drop dramatically."
+        },
+        {
+          "name": "Concentration risk",
+          "text": "Investing in few loans or a single platform increases risk. Diversification is key."
+        },
+        {
+          "name": "Currency risk",
+          "text": "Investing in loans denominated in other currencies (EUR, USD, GBP, etc.) exposes you to exchange rate fluctuations."
+        },
+        {
+          "name": "Platform risk",
+          "text": "The platform may face operational, regulatory, or financial issues that affect investors."
+        },
+        {
+          "name": "Originator risk",
+          "text": "On platforms working with external entities, the financial health of those entities affects loan risk."
+        }
+      ]
+    },
+    "disclaimer": "Investing in P2P loans carries risks. It is not a bank deposit, it is not guaranteed, and you may lose part or all of your capital. This website does not offer personalized financial advice."
+  },
+  "plataformas": {
+    "title": "Platforms",
+    "intro": "Informational and personal profiles of the platforms I invest in. Each profile combines objective information with my personal experience, clearly separated.",
+    "tabla_comparativa": "Quick comparison",
+    "tabla": {
+      "nombre": "Platform",
+      "tipo": "Type",
+      "regulada": "Regulated",
+      "rentabilidad": "Typical return",
+      "antiguedad": "Since"
+    },
+    "no_datos": "No data available",
+    "ver_ficha": "View details",
+    "ocultar_ficha": "Hide details",
+    "objetivo": "General information",
+    "experiencia": "My experience",
+    "puntos_fuertes": "Strengths",
+    "riesgos_limitaciones": "Risks or limitations",
+    "perfil": "Who is it for?",
+    "web_oficial": "Official website",
+    "enlace_referido": "Referral link",
+    "no_disponible": "Not available",
+    "inactive": "Platform currently not available",
+    "tabs": {
+      "todas": "All",
+      "reguladas": "Regulated",
+      "no_reguladas": "Non-regulated"
+    },
+    "nota_referido": "Some links on this website are referral or affiliate links. If you use them, I may receive compensation at no extra cost to you. Check the current terms of each program."
+  },
+  "plataforma_bondora": {
+    "nombre": "Bondora",
+    "resumen": "Platform based in Estonia, founded in 2008. One of the pioneers in Europe, it offers personal loans and its Go & Grow product, an automated investment option. It operates under a license from the Estonian Financial Supervision Authority.",
+    "producto": "Personal loans, Go & Grow (automated investment), secondary market.",
+    "puntos_fuertes": [
+      "Established platform with years of track record.",
+      "Go & Grow product suitable for investors seeking automation.",
+      "Active secondary market for loan sales.",
+      "Operates under Estonian financial supervision."
+    ],
+    "riesgos": [
+      "History of variable returns, including periods of negative performance.",
+      "Significant exposure to credit risk markets.",
+      "Go & Grow returns are not guaranteed and may be adjusted."
+    ],
+    "perfil": "Investors looking for an established platform with an automated product, accepting the risks of the personal loan market.",
+    "experiencia": "Bondora was the first platform I heard about and invested in. I learned about risks, secondary market, and selling loans at a discount through it. Since I was in a learning phase, my returns gradually declined and I slowly shifted to platforms I found more convenient, like Mintos or Twino. My current Bondora portfolio is mainly in Go & Grow as a simple option."
+  },
+  "plataforma_mintos": {
+    "nombre": "Mintos",
+    "resumen": "Platform based in Latvia, founded in 2015. One of the best-known in the sector, it offers loans from various originating entities. It operates under a license from the Financial and Capital Market Commission of Latvia.",
+    "producto": "Loans from external originators (business, vehicle, real estate, etc.), secondary market, Investment Opportunities with different risk profiles.",
+    "puntos_fuertes": [
+      "Large loan volume and diversity of originators.",
+      "Comprehensive interface and analysis tools.",
+      "Liquid secondary market under normal conditions.",
+      "EU-regulated with a crowdfunding platform license."
+    ],
+    "riesgos": [
+      "Dependence on external originators; their financial health affects loan risk.",
+      "There have been originators with payment issues (e.g., my personal experience).",
+      "Not all originators are directly supervised by the platform."
+    ],
+    "perfil": "Investors seeking product variety, analysis tools, and active secondary markets.",
+    "experiencia": "Mintos is one of the best-known platforms in the sector, and for a long time it has given me good returns. I had an issue with one entity within the platform that stopped paying, but my experience is that Mintos has managed the recovery and kept investors informed. This doesn't mean it will always be the case, but in my case it has been manageable."
+  },
+  "plataforma_twino": {
+    "nombre": "Twino",
+    "resumen": "Platform based in Latvia, founded in 2016. It focuses on asset-backed business loans and is regulated by the Financial and Capital Market Commission of Latvia.",
+    "producto": "Business loans backed by real assets (real estate, vehicles, machinery).",
+    "puntos_fuertes": [
+      "Focus on secured loans, which may reduce default risk.",
+      "EU-regulated platform.",
+      "Historically more stable returns than some other platforms."
+    ],
+    "riesgos": [
+      "Collateral does not always cover the full loan amount in case of default.",
+      "Less product variety compared to other platforms.",
+      "Dependence on the business loan market."
+    ],
+    "perfil": "Investors who prefer a more conservative profile within P2P, with asset-backed loans.",
+    "experiencia": "I find it a straightforward platform to use and quite consistent over time. I have not had any significant issues with it."
+  },
+  "plataforma_maclear": {
+    "nombre": "Maclear",
+    "resumen": "Platform founded in 2021, based in the UK. It operates in the crypto-backed loans and credit space. It is a relatively young platform still developing its features.",
+    "producto": "Digital asset-backed loans, secondary market.",
+    "puntos_fuertes": [
+      "Secondary market that is easy to use.",
+      "Young team progressively adding improvements."
+    ],
+    "riesgos": [
+      "Young platform with less track record than others.",
+      "Exposure to crypto assets and their volatility.",
+      "Lower loan volume and liquidity."
+    ],
+    "perfil": "Investors interested in exploring newer platforms with exposure to digital assets.",
+    "experiencia": "Maclear is a young platform and has been gradually adding improvements. I find its secondary market particularly easy to use."
+  },
+  "plataforma_debitum": {
+    "nombre": "Debitum",
+    "resumen": "Platform founded in 2018, based in Lithuania. It stands out by focusing on business financing rather than individuals, offering secured business loans.",
+    "producto": "Secured business loans, invoicing, credit lines for companies.",
+    "puntos_fuertes": [
+      "Focus on businesses with associated collateral.",
+      "Intuitive and easy-to-navigate interface.",
+      "Opportunity to diversify in a segment different from consumer lending."
+    ],
+    "riesgos": [
+      "Fewer loans available compared to larger platforms.",
+      "Risk associated with the business market.",
+      "Collateral may not always be easily enforceable."
+    ],
+    "perfil": "Investors looking for exposure to the business segment with collateral, outside consumer lending.",
+    "experiencia": "I find it different from other platforms because it focuses on business financing rather than individuals. In my experience it has worked well and I find its website intuitive."
+  },
+  "plataforma_loanch": {
+    "nombre": "Loanch",
+    "resumen": "Platform founded in 2018, based in Georgia. It operates short-term quick loans aimed at urgent liquidity needs. It is not regulated by European financial authorities.",
+    "producto": "Short-term quick loans, small amounts, high turnover.",
+    "puntos_fuertes": [
+      "Potentially high short-term returns.",
+      "Very short loan duration reduces exposure period.",
+      "High turnover allows frequent reinvestment."
+    ],
+    "riesgos": [
+      "Not EU-regulated, which implies less oversight.",
+      "Past returns do not guarantee future results.",
+      "Potentially lower stability compared to regulated platforms."
+    ],
+    "perfil": "Investors willing to take higher risk in exchange for potentially high returns over short terms.",
+    "experiencia": "From the start, it has offered me high returns on very short-term loans. That said, it has a shorter track record than other platforms and needs to be monitored closely. In my personal experience it works, but everyone should assess their own risk profile."
+  },
+  "plataforma_8lends": {
+    "nombre": "8lends",
+    "resumen": "Platform from the same group as Maclear, operating with crypto assets and stablecoins (USDC). It requires managing a cryptocurrency wallet to operate. A more recent platform with a particular approach.",
+    "producto": "Digital asset-backed loans, platform token rewards.",
+    "puntos_fuertes": [
+      "Potential additional rewards through platform tokens.",
+      "Part of the same group as Maclear, with a known team."
+    ],
+    "riesgos": [
+      "Requires handling cryptocurrencies, adding complexity.",
+      "Exposure to crypto asset volatility.",
+      "Security processes that can be cumbersome.",
+      "Token rewards are not equivalent to guaranteed returns."
+    ],
+    "perfil": "Investors with cryptocurrency experience looking for platforms that integrate DeFi with traditional lending.",
+    "experiencia": "8lends belongs to the same group as Maclear and I find it somewhat more complex to use, as it requires managing a crypto wallet, converting funds to USDC, and manually handling investments and withdrawals. This makes it more cumbersome, with stricter security protocols, though I personally feel comfortable using it. It also includes platform token rewards, which should not be mistaken for guaranteed returns."
+  },
+  "revolut": {
+    "title": "Revolut and Revolut Metal",
+    "intro": "Revolut is a financial app offering banking services, currency exchange, and other financial tools. Its Metal plan includes features that may be useful for P2P investors dealing with European platforms.",
+    "para_que": "Why might it interest a P2P investor?",
+    "razones": [
+      "Currency exchange with preferential terms on premium plans (Metal).",
+      "Ability to hold and manage multiple currencies in a single account.",
+      "Instant SEPA transfers to European platforms.",
+      "Mobile device insurance included in selected plans."
+    ],
+    "condiciones": "Revolut's terms, benefits, and promotions may vary by plan, country, and time. Do not assume all advantages are permanently available or in all regions. Check the official website for current terms.",
+    "nota_referido": "Referral program requirements and rewards may change depending on campaign and country. Check current terms before using a referral link.",
+    "cta": "More information at Revolut"
+  },
+  "rendimiento": {
+    "title": "My investment performance",
+    "intro": "Monthly evolution of annualized percentage return (12-month extrapolation) of my portfolio on each platform.",
+    "kpi": {
+      "ultimo": "Latest value",
+      "maximo": "All-time high",
+      "minimo": "All-time low",
+      "media": "Period average"
+    },
+    "tabla": "Historical table",
+    "fecha": "Date",
+    "sin_datos": "No data",
+    "metodologia": {
+      "title": "Methodology note",
+      "texto": "The data shown represents a simple extrapolation of monthly returns to 12 months. It does not necessarily equal actual annual returns, as it does not account for withdrawals, additional contributions, fees, or compounding effects. This figure serves as a reference for observing trends, not as an exact measure of profitability."
+    },
+    "cargando": "Loading data...",
+    "error_csv": "Could not load data. Check that the CSV file is in the correct path."
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "preguntas": [
+      {
+        "p": "What is P2P lending?",
+        "r": "It is a financing model that connects investors with borrowers through online platforms, without traditional banking intermediaries."
+      },
+      {
+        "p": "Is P2P lending safe?",
+        "r": "No investment is completely safe. P2P lending carries real risks, including the potential total loss of invested capital. Diversification and prior research help manage them, but do not eliminate them."
+      },
+      {
+        "p": "Is P2P lending regulated?",
+        "r": "It depends on the platform and country. Some platforms are regulated by European financial authorities, others are not. Regulation provides oversight but does not eliminate investment risks."
+      },
+      {
+        "p": "How much capital do I need to start?",
+        "r": "Many platforms allow starting with small amounts, from 10-50 €. However, for proper diversification, a larger capital is recommended, though there is no universal minimum."
+      },
+      {
+        "p": "What are the main risks?",
+        "r": "The main risks are default (the borrower does not repay), liquidity (inability to sell loans), platform risk, and currency risk."
+      },
+      {
+        "p": "Can I sell my loans before maturity?",
+        "r": "On platforms with a secondary market, yes. However, liquidity is not guaranteed: there may be times when selling is difficult or only at a discount."
+      },
+      {
+        "p": "How does currency affect my investments?",
+        "r": "If you invest in loans denominated in currencies other than your own, exchange rate fluctuations can affect your returns, either positively or negatively."
+      },
+      {
+        "p": "How are P2P lending gains taxed?",
+        "r": "It depends on your country of tax residence. P2P lending taxation varies according to local legislation. Do not assume general criteria; consult a tax advisor for your specific situation."
+      }
+    ]
+  },
+  "footer": {
+    "aviso_legal": "This site is a personal informational project. The information contained herein does not constitute financial advice or investment recommendation.",
+    "afiliacion": "Some links on this website are affiliate or referral links. If you use them, I may receive compensation at no extra cost to you.",
+    "no_asesoramiento": "No content on this website should be interpreted as financial, legal, or tax advice. Each investor should conduct their own research and, if needed, consult a professional.",
+    "copyright": "The P2P Experience. Personal non-commercial project."
+  },
+  "theme": {
+    "light": "Light mode",
+    "dark": "Dark mode"
+  },
+  "general": {
+    "cargando": "Loading..."
+  }
+}
