@@ -13,13 +13,21 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 <link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
 </head>
 <body>
 
 <!-- ─── Header ───────────────────────────────────────────────── -->
 <header class="site-header">
   <div class="container header-inner">
-    <a href="#" class="site-logo">The P2P Experience</a>
+    <a href="#" class="site-logo">
+      <svg class="logo-icon" width="28" height="28" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+        <path d="M120 40 L175 62 L175 96 Q175 138 120 178 Q65 138 65 96 L65 62 Z" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round"/>
+        <circle cx="120" cy="108" r="32" fill="none" stroke="currentColor" stroke-width="3.5"/>
+        <text x="120" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="800" font-size="24" fill="currentColor">P2P</text>
+      </svg>
+      <span class="logo-text">The P2P Experience</span>
+    </a>
 
     <button class="hamburger" id="hamburger" aria-expanded="false" aria-label="Menú">
       <span></span><span></span><span></span>

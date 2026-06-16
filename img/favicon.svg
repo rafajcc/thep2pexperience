@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 240 240">
+  <path d="M120 40 L175 62 L175 96 Q175 138 120 178 Q65 138 65 96 L65 62 Z" fill="none" stroke="#3b82f6" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="120" cy="108" r="33" fill="none" stroke="#f59e0b" stroke-width="4"/>
+  <text x="120" y="116" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="800" font-size="28" fill="#f8fafc">P2P</text>
+</svg>

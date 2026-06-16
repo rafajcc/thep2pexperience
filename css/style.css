@@ -152,14 +152,25 @@ a:hover {
 }
 
 .site-logo {
-  font-size: 1.1rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   color: var(--color-text);
   white-space: nowrap;
+  text-decoration: none;
 }
 .site-logo:hover {
   color: var(--color-accent);
+}
+
+.logo-icon {
+  flex-shrink: 0;
+}
+
+.logo-text {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 .nav-menu {

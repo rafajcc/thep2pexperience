@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <defs>
+    <linearGradient id="g-blue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="g-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="108" r="90" fill="none" stroke="#3b82f6" stroke-width="1.2" opacity="0.1"/>
+  <circle cx="120" cy="108" r="72" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity="0.18"/>
+  <circle cx="120" cy="108" r="54" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.28"/>
+  <path d="M120 40 L175 62 L175 96 Q175 138 120 178 Q65 138 65 96 L65 62 Z" fill="none" stroke="url(#g-blue)" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M120 50 L164 68 L164 94 Q164 130 120 164 Q76 130 76 94 L76 68 Z" fill="none" stroke="#3b82f6" stroke-width="1.2" opacity="0.2" stroke-linejoin="round"/>
+  <circle cx="120" cy="108" r="33" fill="none" stroke="url(#g-gold)" stroke-width="2.5"/>
+  <circle cx="120" cy="108" r="26" fill="none" stroke="url(#g-gold)" stroke-width="0.8" opacity="0.5"/>
+  <text x="120" y="116" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="800" font-size="26" fill="#f8fafc">P2P</text>
+  <circle cx="84" cy="82" r="2.5" fill="#f59e0b" opacity="0.4"/>
+  <circle cx="156" cy="82" r="2.5" fill="#f59e0b" opacity="0.4"/>
+  <text x="120" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" font-size="13" fill="#94a3b8">The P2P Experience</text>
+</svg>
