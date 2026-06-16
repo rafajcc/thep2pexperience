@@ -58,5 +58,5 @@ const CONFIG = {
   // ─── Site settings ────────────────────────────────────────────
   siteName: "The P2P Experience",
   defaultLang: "es",
-  version: "0.0.9",
+  version: "0.1.1",
 };

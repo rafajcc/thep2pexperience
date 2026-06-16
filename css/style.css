@@ -865,6 +865,30 @@ a:hover {
   line-height: 0;
 }
 
+/* ─── Revolut logos ──────────────────────────────────────────── */
+.revolut-logos {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.revolut-logo-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.revolut-logo-item img {
+  border-radius: 6px;
+}
+
+.revolut-logo-item--metal {
+  color: var(--color-accent);
+}
+
 /* ─── Revolut ─────────────────────────────────────────────────── */
 .revolut-reasons {
   display: grid;
