@@ -162,12 +162,16 @@
       "reguladas": "Regulated",
       "no_reguladas": "Non-regulated"
     },
+    "invertir_ahora": "Invest now",
     "nota_referido": "Some links on this website are referral or affiliate links. If you use them, I may receive compensation at no extra cost to you. Check the current terms of each program.",
-    "terminos_referido": "Referral terms"
+    "terminos_referido": "Referral terms",
+    "referido_aviso": "Program terms may vary. Check the terms.",
+    "mifid_explicacion": "A platform is considered regulated if it operates under an EU crowdfunding license, within the MiFID II framework, or under the supervision of an equivalent national financial authority.",
+    "mifid_enlace": "More about MiFID II"
   },
   "plataforma_bondora": {
     "nombre": "Bondora",
-    "resumen": "Platform based in Estonia, founded in 2008. One of the pioneers in Europe, it offers personal loans and its Go & Grow product, an automated investment option. It operates under a license from the Estonian Financial Supervision Authority.",
+    "resumen": "Platform based in Estonia, founded in 2008. One of the pioneers in Europe, it offers personal loans and its Go & Grow product, an automated investment option. It operates under a license from the Estonian Financial Supervision Authority, within the European crowdfunding regulation framework (ECSP/MiFID II).",
     "producto": "Personal loans, Go & Grow (automated investment), secondary market.",
     "puntos_fuertes": [
       "Established platform with years of track record.",
@@ -182,11 +186,11 @@
     ],
     "perfil": "Investors looking for an established platform with an automated product, accepting the risks of the personal loan market.",
     "experiencia": "Bondora was the first platform I heard about and invested in. Between mid-2019 and early 2024 I was experimenting in the secondary market, buying and selling loans. I did not make the best decisions: I sold profitable loans while keeping the non-profitable ones. From January 2020 onward I went through a long period of neglect during which many defaults accumulated. Later I picked it back up and worked quite seriously in the secondary market to obtain high returns, also backed by recoveries from previous defaults. This means that the gains seen since August 2024 do not reflect new 'real' returns, but include recoveries from past defaults, which also explain the exaggerated losses from previous months. In May 2026 I sold my loan portfolio at the price Bondora offered to move everything into Go & Grow, taking a loss (hence the -274% that month), but protecting myself against potential defaults in my existing portfolio. I assume Bondora bought my profitable loans at a fair price and the non-profitable or high-risk loans at a significant discount; hence the valuation they gave my portfolio, which I accepted. I hope to recover those losses over time with Go & Grow, where I estimate returns will be around 6% per year.",
-    "referido_beneficio": "Benefit: €5 upon sign-up (min. €50 investment). Terms and conditions apply."
+    "referido_beneficio": "Want to invest in Bondora? Use this link and get a €5 sign-up bonus (min. €50 investment)."
   },
   "plataforma_mintos": {
     "nombre": "Mintos",
-    "resumen": "Platform based in Latvia, founded in 2015. One of the best-known in the sector, it offers loans from various originating entities. It operates under a license from the Financial and Capital Market Commission of Latvia.",
+    "resumen": "Platform based in Latvia, founded in 2015. One of the best-known in the sector, it offers loans from various originating entities. It operates under a license from the Financial and Capital Market Commission of Latvia, within the ECSP/MiFID II regulatory framework.",
     "producto": "Loans from external originators (business, vehicle, real estate, etc.), secondary market, Investment Opportunities with different risk profiles.",
     "puntos_fuertes": [
       "Large loan volume and diversity of originators.",
@@ -201,11 +205,11 @@
     ],
     "perfil": "Investors seeking product variety, analysis tools, and active secondary markets.",
     "experiencia": "Mintos is one of the best-known platforms in the sector, and for a long time it has given me good returns. I had an issue with one entity within the platform that stopped paying, but my experience is that Mintos has managed the recovery and kept investors informed. This doesn't mean it will always be the case, but in my case it has been manageable.",
-    "referido_beneficio": "Benefit: €25 + 1% of their investment (min. €1,000 within 60 days). Terms and conditions apply."
+    "referido_beneficio": "Want to invest in Mintos? Use this link and earn €25 + 1% of your investment (min. €1,000 within 60 days)."
   },
   "plataforma_twino": {
     "nombre": "Twino",
-    "resumen": "Platform based in Latvia, founded in 2016. It focuses on asset-backed business loans and is regulated by the Financial and Capital Market Commission of Latvia.",
+    "resumen": "Platform based in Latvia, founded in 2016. It focuses on asset-backed business loans and is regulated by the Financial and Capital Market Commission of Latvia, under the ECSP/MiFID II framework.",
     "producto": "Business loans backed by real assets (real estate, vehicles, machinery).",
     "puntos_fuertes": [
       "Focus on secured loans, which may reduce default risk.",
@@ -219,11 +223,11 @@
     ],
     "perfil": "Investors who prefer a more conservative profile within P2P, with asset-backed loans.",
     "experiencia": "I find it a straightforward platform to use and quite consistent over time. I have not had any significant issues with it.",
-    "referido_beneficio": "Benefit: up to 2% cash bonus on all primary market investments within the first 90 days. Terms and conditions apply."
+    "referido_beneficio": "Want to invest in Twino? Use this link and get up to 2% cashback on your investments during the first 90 days."
   },
   "plataforma_maclear": {
     "nombre": "Maclear",
-    "resumen": "Platform founded in 2021, based in the UK. It operates in the crypto-backed loans and credit space. It is a relatively young platform still developing its features.",
+    "resumen": "Platform founded in 2021, based in Switzerland. It operates in the crypto-backed loans and credit space. It is subject to the Swiss Code of Obligations and is a member of PolyReg SRO (a self-regulatory organization under FINMA supervision), complying with Swiss AML legislation.",
     "producto": "Digital asset-backed loans, secondary market.",
     "puntos_fuertes": [
       "Secondary market that is easy to use.",
@@ -236,11 +240,11 @@
     ],
     "perfil": "Investors interested in exploring newer platforms with exposure to digital assets.",
     "experiencia": "Maclear is a young platform and has been gradually adding improvements. I find its secondary market particularly easy to use.",
-    "referido_beneficio": "Benefit: 3% of the investment amount for both parties during the first 90 days. Terms and conditions apply."
+    "referido_beneficio": "Want to invest in Maclear? Use this link and both you and your friend earn 3% on investments during the first 90 days."
   },
   "plataforma_debitum": {
     "nombre": "Debitum",
-    "resumen": "Platform founded in 2018, based in Lithuania. It stands out by focusing on business financing rather than individuals, offering secured business loans.",
+    "resumen": "Platform founded in 2018, based in Lithuania. It stands out by focusing on business financing rather than individuals, offering secured business loans. It operates under an EU crowdfunding platform license (MiFID II).",
     "producto": "Secured business loans, invoicing, credit lines for companies.",
     "puntos_fuertes": [
       "Focus on businesses with associated collateral.",
@@ -254,11 +258,11 @@
     ],
     "perfil": "Investors looking for exposure to the business segment with collateral, outside consumer lending.",
     "experiencia": "I find it different from other platforms because it focuses on business financing rather than individuals. In my experience it has worked well and I find its website intuitive.",
-    "referido_beneficio": "Benefit: €20 per referral (min. €1,000 investment within 30 days after KYC). Terms and conditions apply."
+    "referido_beneficio": "Want to invest in Debitum? Use this link and get a €20 bonus (min. €1,000 investment within 30 days after verification)."
   },
   "plataforma_loanch": {
     "nombre": "Loanch",
-    "resumen": "Platform founded in 2018, based in Georgia. It operates short-term quick loans aimed at urgent liquidity needs. It is not regulated by European financial authorities.",
+    "resumen": "Platform founded in 2018, based in Georgia. It operates short-term quick loans aimed at urgent liquidity needs. It is not regulated by European financial authorities (no ECSP or MiFID II license). It operates under Hungarian and Croatian legislation, where no specific regulatory framework for P2P platforms exists.",
     "producto": "Short-term quick loans, small amounts, high turnover.",
     "puntos_fuertes": [
       "Potentially high short-term returns.",
@@ -272,11 +276,11 @@
     ],
     "perfil": "Investors willing to take higher risk in exchange for potentially high returns over short terms.",
     "experiencia": "From the start, it has offered me high returns on very short-term loans. That said, it has a shorter track record than other platforms and needs to be monitored closely. In my personal experience it works, but everyone should assess their own risk profile.",
-    "referido_beneficio": "Benefit: 1% of average daily investment portfolio within the first 90 days (max. €500). Terms and conditions apply."
+    "referido_beneficio": "Want to invest in Loanch? Use this link and earn 1% of your average daily portfolio during the first 90 days (max. €500)."
   },
   "plataforma_8lends": {
     "nombre": "8lends",
-    "resumen": "Platform from the same group as Maclear, operating with crypto assets and stablecoins (USDC). It requires managing a cryptocurrency wallet to operate. A more recent platform with a particular approach.",
+    "resumen": "Platform from the same group as Maclear, operating with crypto assets and stablecoins (USDC). It is registered as a Virtual Asset Service Provider (VASP) in Saint Vincent and the Grenadines, with Maclear AG (Switzerland) acting as collateral agent under Swiss law. Requires managing a cryptocurrency wallet to operate.",
     "producto": "Digital asset-backed loans, platform token rewards.",
     "puntos_fuertes": [
       "Potential additional rewards through platform tokens.",
@@ -290,7 +294,7 @@
     ],
     "perfil": "Investors with cryptocurrency experience looking for platforms that integrate DeFi with traditional lending.",
     "experiencia": "8lends belongs to the same group as Maclear and I find it somewhat more complex to use, as it requires managing a crypto wallet, converting funds to USDC, and manually handling investments and withdrawals. This makes it more cumbersome, with stricter security protocols, though I personally feel comfortable using it. It also includes platform token rewards, which should not be mistaken for guaranteed returns.",
-    "referido_beneficio": "Benefit: 30 USD for the first investment. Terms and conditions apply."
+    "referido_beneficio": "Want to invest in 8lends? Use this link and get a 30 USD bonus on your first investment."
   },
   "revolut": {
     "title": "Revolut and Revolut Metal",
@@ -305,7 +309,7 @@
     "condiciones": "Revolut's terms, benefits, and promotions may vary by plan, country, and time. Do not assume all advantages are permanently available or in all regions. Check the official website for current terms.",
     "nota_referido": "Referral program requirements and rewards may change depending on campaign and country. Check current terms before using a referral link.",
     "cta": "More information at Revolut",
-    "referido_beneficio": "Benefit: 50 EUR per referral. Terms and conditions apply."
+    "referido_beneficio": "Use Revolut? Sign up with this link and get a 50 EUR bonus (subject to current campaign terms)."
   },
   "rendimiento": {
     "title": "My investment performance",

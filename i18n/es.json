@@ -162,12 +162,16 @@
       "reguladas": "Reguladas",
       "no_reguladas": "No reguladas"
     },
+    "invertir_ahora": "Invertir ahora",
     "nota_referido": "Algunos enlaces de la web son enlaces de referido o afiliación. Si los usas, es posible que reciba una compensación, sin coste adicional para ti. Infórmate de las condiciones vigentes en cada programa.",
-    "terminos_referido": "Términos del referido"
+    "terminos_referido": "Términos del referido",
+    "referido_aviso": "Las condiciones del programa pueden variar. Consulta los términos.",
+    "mifid_explicacion": "Se considera regulada toda plataforma que opera bajo licencia de financiación participativa de la UE, en el marco de la directiva MiFID II, o bajo supervisión de una autoridad financiera nacional equivalente.",
+    "mifid_enlace": "Más información sobre MiFID II"
   },
   "plataforma_bondora": {
     "nombre": "Bondora",
-    "resumen": "Plataforma con sede en Estonia, fundada en 2008. Fue una de las pioneras en Europa y ofrece préstamos personales, además de su producto Go & Grow, una opción automatizada que busca simplificar la inversión. Opera bajo licencia de la Autoridad de Mercados Financieros de Estonia.",
+    "resumen": "Plataforma con sede en Estonia, fundada en 2008. Fue una de las pioneras en Europa y ofrece préstamos personales, además de su producto Go & Grow, una opción automatizada que busca simplificar la inversión. Opera bajo licencia de la Autoridad de Mercados Financieros de Estonia, en el marco de la regulación europea de plataformas de financiación participativa (ECSP/MiFID II).",
     "producto": "Préstamos personales, Go & Grow (inversión automatizada), mercado secundario.",
     "puntos_fuertes": [
       "Plataforma consolidada con años de trayectoria.",
@@ -182,11 +186,11 @@
     ],
     "perfil": "Inversores que buscan una plataforma con trayectoria y producto automatizado, asumiendo los riesgos del mercado de préstamos personales.",
     "experiencia": "Bondora fue la primera plataforma de la que oí hablar y en la que invertí. Entre mediados de 2019 y principios de 2024 estuve experimentando en el mercado secundario, comprando y vendiendo préstamos. No tomé las mejores decisiones: vendí préstamos rentables mientras me quedaba con los que no lo eran. A partir de enero de 2020 entré en una época larga de abandono en la que se acumularon muchos impagos. Más tarde retomé la plataforma y trabajé bastante en serio en el mercado secundario para obtener altas rentabilidades, respaldadas también por recuperaciones de impagos anteriores. Esto significa que las ganancias que se ven desde agosto de 2024 no reflejan una rentabilidad nueva «real», sino que incluyen recuperaciones de impagos pasados, que también explican las pérdidas exageradas de los meses anteriores. En mayo de 2026 vendí mi cartera de préstamos al precio que me ofreció Bondora para pasarlo todo a Go & Grow, asumiendo pérdidas (de ahí el -274 % de ese mes), pero asegurándome contra posibles impagos de la cartera que tenía. Supongo que Bondora me compró a buen precio los préstamos rentables y con bastante descuento los préstamos no rentables o de alto riesgo de impago; de ahí la valoración que dieron a mi cartera y que acepté. Espero recuperar esas pérdidas en el futuro con Go & Grow, donde estimo que la rentabilidad rondará el 6 % anual.",
-    "referido_beneficio": "Beneficio: 5 € por registro (inversión mín. 50 €). Se aplican términos y condiciones."
+    "referido_beneficio": "¿Quieres invertir en Bondora? Usa este enlace y llévate 5 € de bonus por registrarte (inversión mín. 50 €)."
   },
   "plataforma_mintos": {
     "nombre": "Mintos",
-    "resumen": "Plataforma con sede en Letonia, fundada en 2015. Es una de las más conocidas del sector y ofrece préstamos de diversas entidades originadoras. Opera bajo licencia de la Autoridad de Mercados Financieros y de Capital de Letonia.",
+    "resumen": "Plataforma con sede en Letonia, fundada en 2015. Es una de las más conocidas del sector y ofrece préstamos de diversas entidades originadoras. Opera bajo licencia de la Autoridad de Mercados Financieros y de Capital de Letonia, dentro del marco regulatorio europeo ECSP/MiFID II.",
     "producto": "Préstamos de originadores externos (empresas, vehículos, inmuebles, etc.), mercado secundario, Investment Opportunities con diferentes perfiles de riesgo.",
     "puntos_fuertes": [
       "Plataforma con gran volumen de préstamos y diversidad de originadores.",
@@ -201,11 +205,11 @@
     ],
     "perfil": "Inversores que buscan variedad de productos, herramientas de análisis y mercados secundarios activos.",
     "experiencia": "Mintos es una de las plataformas más conocidas del sector, y durante mucho tiempo me ha dado buena rentabilidad. He tenido un problema con una entidad dentro de la plataforma que dejó de pagar, pero mi experiencia es que Mintos ha gestionado la recuperación manteniendo informados a los inversores. Esto no significa que vaya a ser así siempre, pero en mi caso ha sido llevadero.",
-    "referido_beneficio": "Beneficio: 25 € + 1% de su inversión (mín. 1.000 € en 60 días). Se aplican términos y condiciones."
+    "referido_beneficio": "¿Quieres invertir en Mintos? Usa este enlace y obtén 25 € + un 1 % de tu inversión (mín. 1.000 € en 60 días)."
   },
   "plataforma_twino": {
     "nombre": "Twino",
-    "resumen": "Plataforma con sede en Letonia, fundada en 2016. Se centra en préstamos empresariales garantizados con activos y está regulada por la Autoridad de Mercados Financieros y de Capital de Letonia.",
+    "resumen": "Plataforma con sede en Letonia, fundada en 2016. Se centra en préstamos empresariales garantizados con activos y está regulada por la Autoridad de Mercados Financieros y de Capital de Letonia, en el marco ECSP/MiFID II.",
     "producto": "Préstamos empresariales garantizados con activos reales (inmuebles, vehículos, maquinaria).",
     "puntos_fuertes": [
       "Enfoque en préstamos garantizados, lo que puede reducir el riesgo de impago.",
@@ -219,11 +223,11 @@
     ],
     "perfil": "Inversores que prefieren un perfil más conservador dentro del P2P, con préstamos respaldados por activos.",
     "experiencia": "Me parece una plataforma sencilla de usar y bastante constante en el tiempo. En mi caso no he tenido problemas relevantes.",
-    "referido_beneficio": "Beneficio: hasta 2% de bonificación en efectivo por todas las inversiones en el mercado primario durante los primeros 90 días. Se aplican términos y condiciones."
+    "referido_beneficio": "¿Quieres invertir en Twino? Usa este enlace y recibe hasta un 2 % de bonificación en tus inversiones durante los primeros 90 días."
   },
   "plataforma_maclear": {
     "nombre": "Maclear",
-    "resumen": "Plataforma fundada en 2021, con sede en Reino Unido. Opera en el espacio de préstamos respaldados por criptoactivos y créditos. Es una plataforma relativamente joven en proceso de desarrollo de funcionalidades.",
+    "resumen": "Plataforma fundada en 2021, con sede en Suiza. Opera en el espacio de préstamos respaldados por criptoactivos y créditos. Está sujeta al Código de Obligaciones suizo y es miembro de PolyReg SRO (organismo autorregulado bajo supervisión de FINMA), cumpliendo con la legislación AML suiza.",
     "producto": "Préstamos respaldados por activos digitales, mercado secundario.",
     "puntos_fuertes": [
       "Mercado secundario que resulta fácil de usar.",
@@ -236,11 +240,11 @@
     ],
     "perfil": "Inversores interesados en explorar plataformas más nuevas con exposición a activos digitales.",
     "experiencia": "Maclear es una plataforma joven y poco a poco ha ido incorporando mejoras. Su mercado secundario me resulta especialmente fácil de utilizar.",
-    "referido_beneficio": "Beneficio: 3% del importe de la inversión para ambas partes durante los primeros 90 días. Se aplican términos y condiciones."
+    "referido_beneficio": "¿Quieres invertir en Maclear? Usa este enlace y tanto tú como tu invitado recibís un 3 % del importe invertido durante los primeros 90 días."
   },
   "plataforma_debitum": {
     "nombre": "Debitum",
-    "resumen": "Plataforma fundada en 2018, con sede en Lituania. Se diferencia por centrarse en financiación a empresas en lugar de particulares, ofreciendo préstamos empresariales con garantías.",
+    "resumen": "Plataforma fundada en 2018, con sede en Lituania. Se diferencia por centrarse en financiación a empresas en lugar de particulares, ofreciendo préstamos empresariales con garantías. Opera bajo licencia de plataforma de financiación participativa de la UE (MiFID II).",
     "producto": "Préstamos empresariales garantizados, facturación, líneas de crédito para empresas.",
     "puntos_fuertes": [
       "Enfoque en empresas con garantías asociadas.",
@@ -254,11 +258,11 @@
     ],
     "perfil": "Inversores que buscan exponerse al segmento empresarial con garantías, fuera del préstamo al consumo.",
     "experiencia": "Me parece diferente a otras plataformas porque se centra en financiación a empresas en lugar de particulares. En mi experiencia ha funcionado bien y su web me resulta intuitiva.",
-    "referido_beneficio": "Beneficio: 20 € por referido (inversión mín. 1.000 € en 30 días tras KYC). Se aplican términos y condiciones."
+    "referido_beneficio": "¿Quieres invertir en Debitum? Usa este enlace y llévate 20 € de bonus (inversión mín. 1.000 € en 30 días tras verificación)."
   },
   "plataforma_loanch": {
     "nombre": "Loanch",
-    "resumen": "Plataforma fundada en 2018, con sede en Georgia. Opera préstamos rápidos a corto plazo, dirigidos a necesidades urgentes de liquidez. No está regulada por autoridades financieras europeas.",
+    "resumen": "Plataforma fundada en 2018, con sede en Georgia. Opera préstamos rápidos a corto plazo, dirigidos a necesidades urgentes de liquidez. No está regulada por autoridades financieras europeas (no dispone de licencia ECSP ni MiFID II). Opera bajo la legislación húngara y croata, donde no existe un marco regulatorio específico para plataformas P2P.",
     "producto": "Préstamos rápidos (short-term) a corto plazo, con importes pequeños y alta rotación.",
     "puntos_fuertes": [
       "Rentabilidades potencialmente altas a corto plazo.",
@@ -272,11 +276,11 @@
     ],
     "perfil": "Inversores dispuestos a asumir mayor riesgo a cambio de potenciales rentabilidades altas en plazos cortos.",
     "experiencia": "Desde el primer momento me ha ofrecido rentabilidades altas en préstamos a muy corto plazo. Dicho esto, es una plataforma con menor trayectoria que otras y conviene seguirla de cerca. En mi experiencia personal funciona, pero cada uno debe valorar su propio perfil de riesgo.",
-    "referido_beneficio": "Beneficio: 1% del saldo de inversión diario medio durante los primeros 90 días (máx. 500 €). Se aplican términos y condiciones."
+    "referido_beneficio": "¿Quieres invertir en Loanch? Usa este enlace y obtén un 1 % de tu cartera media diaria durante los primeros 90 días (máx. 500 €)."
   },
   "plataforma_8lends": {
     "nombre": "8lends",
-    "resumen": "Plataforma del mismo grupo que Maclear, que opera con criptoactivos y stablecoins (USDC). Requiere gestionar una cartera de criptomonedas para operar. Es una plataforma más reciente y con un enfoque particular.",
+    "resumen": "Plataforma del mismo grupo que Maclear, que opera con criptoactivos y stablecoins (USDC). Está registrada como Virtual Asset Service Provider (VASP) en San Vicente y las Granadinas, y Maclear AG (Suiza) actúa como agente de garantía bajo el derecho suizo. Requiere gestionar una cartera de criptomonedas para operar.",
     "producto": "Préstamos respaldados por activos digitales, recompensas en tokens de la plataforma.",
     "puntos_fuertes": [
       "Potencial de recompensas adicionales a través de tokens de la plataforma.",
@@ -290,7 +294,7 @@
     ],
     "perfil": "Inversores con experiencia en criptomonedas que buscan plataformas que integren DeFi con lending tradicional.",
     "experiencia": "8lends pertenece al mismo grupo que Maclear y me parece algo más compleja de usar, porque exige manejar cartera de criptomonedas, convertir fondos a USDC y gestionar manualmente inversiones y retiradas. Esto la hace más engorrosa y a veces más compleja por sus protocolos de seguridad, aunque personalmente me siento cómodo usándola. Además, incluye recompensas en tokens de la plataforma, algo que no debe confundirse con rentabilidad garantizada.",
-    "referido_beneficio": "Beneficio: 30 USD por la primera inversión. Se aplican términos y condiciones."
+    "referido_beneficio": "¿Quieres invertir en 8lends? Usa este enlace y llévate 30 USD de bonus por tu primera inversión."
   },
   "revolut": {
     "title": "Revolut y Revolut Metal",
@@ -305,7 +309,7 @@
     "condiciones": "Las condiciones, beneficios y campañas de Revolut pueden variar según el plan, el país y el momento. No asumas que todas las ventajas están disponibles permanentemente ni en todas las regiones. Es recomendable consultar la web oficial para conocer los términos vigentes.",
     "nota_referido": "Los requisitos y recompensas del programa de referido pueden cambiar según campaña y país. Infórmate de los términos actuales antes de usar un enlace de referido.",
     "cta": "Más información en Revolut",
-    "referido_beneficio": "Beneficio: 50 € por referido. Se aplican términos y condiciones."
+    "referido_beneficio": "¿Usas Revolut? Regístrate con este enlace y llévate 50 € de bonus (sujeto a condiciones de la campaña vigente)."
   },
   "rendimiento": {
     "title": "Rendimiento de mis inversiones",
