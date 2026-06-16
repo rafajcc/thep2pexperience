@@ -155,7 +155,8 @@ const ChartsModule = (() => {
 
     const columns = Object.keys(data.series);
     const totalRows = data.labels.length;
-    let visibleCount = 12;
+    const STEP = 12;
+    let visibleCount = STEP;
 
     function buildTable(rowsToShow) {
       const start = Math.max(0, totalRows - rowsToShow);
@@ -183,7 +184,10 @@ const ChartsModule = (() => {
       html += `</tbody></table></div>`;
 
       if (start > 0) {
-        html += `<button class="btn btn-outline btn-table-more" data-i18n="rendimiento.ver_mas">Ver m&aacute;s</button>`;
+        html += `<button class="btn btn-outline btn-table-more">Ver m&aacute;s</button>`;
+      }
+      if (rowsToShow > STEP) {
+        html += `<button class="btn btn-outline btn-table-less">Ver menos</button>`;
       }
 
       container.innerHTML = html;
@@ -191,7 +195,14 @@ const ChartsModule = (() => {
       const moreBtn = container.querySelector(".btn-table-more");
       if (moreBtn) {
         moreBtn.addEventListener("click", function () {
-          visibleCount += 12;
+          visibleCount = Math.min(totalRows, visibleCount + STEP);
+          buildTable(visibleCount);
+        });
+      }
+      const lessBtn = container.querySelector(".btn-table-less");
+      if (lessBtn) {
+        lessBtn.addEventListener("click", function () {
+          visibleCount = Math.max(STEP, visibleCount - STEP);
           buildTable(visibleCount);
         });
       }
