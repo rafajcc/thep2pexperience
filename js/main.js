@@ -55,6 +55,16 @@
         themeLabel.textContent =
           theme === "dark" ? I18n.t("theme.dark") : I18n.t("theme.light");
       }
+      // Show referral benefit text (must run after translations are loaded)
+      document.querySelectorAll("[data-referral-benefit]").forEach((el) => {
+        const platform = el.dataset.referralBenefit;
+        const key = "plataforma_" + platform + ".referido_beneficio";
+        const text = I18n.t(key);
+        if (text !== key) {
+          el.textContent = text;
+          el.style.display = "block";
+        }
+      });
     });
   }
 
