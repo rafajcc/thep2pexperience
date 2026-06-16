@@ -313,6 +313,9 @@
     "cta": "Más información en Revolut",
     "referido_beneficio": "¿Usas Revolut? Regístrate con este enlace y llévate 50 € de bonus (sujeto a condiciones de la campaña vigente)."
   },
+  "kraken": {
+    "nota_referido": "Los requisitos y recompensas del programa de referido pueden cambiar según campaña. Infórmate de los términos actuales antes de usar un enlace de referido."
+  },
   "rendimiento": {
     "title": "Rendimiento de mis inversiones",
     "intro": "Evolución mensual del rendimiento porcentual anualizado (extrapolación a 12 meses) de mi cartera en cada plataforma.",

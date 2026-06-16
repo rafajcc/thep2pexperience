@@ -313,6 +313,9 @@
     "cta": "More information at Revolut",
     "referido_beneficio": "Use Revolut? Sign up with this link and get a 50 EUR bonus (subject to current campaign terms)."
   },
+  "kraken": {
+    "nota_referido": "Referral program requirements and rewards may change depending on campaign. Check current terms before using a referral link."
+  },
   "rendimiento": {
     "title": "My investment performance",
     "intro": "Monthly evolution of annualized percentage return (12-month extrapolation) of my portfolio on each platform.",
