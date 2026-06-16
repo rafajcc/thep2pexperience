@@ -980,8 +980,9 @@ a:hover {
 
 .kpi-label {
   font-size: 0.75rem;
+  font-weight: 400;
   color: var(--color-text-secondary);
-  margin-bottom: 4px;
+  margin-left: 6px;
 }
 
 .kpi-value {

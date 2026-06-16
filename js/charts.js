@@ -122,8 +122,7 @@ const ChartsModule = (() => {
       html.push(`
         <div class="kpi-card" data-column="${col}">
           <h4 class="kpi-title">${col}</h4>
-          <div class="kpi-value ${avg >= 0 ? 'positive' : 'negative'}">${avg.toFixed(2)}%</div>
-          <div class="kpi-label">media</div>
+          <div class="kpi-value ${avg >= 0 ? 'positive' : 'negative'}">${avg.toFixed(2)}% <span class="kpi-label">media</span></div>
           <div class="kpi-meta">
             <span>M&aacute;ximo hist.</span> <strong>${maxVal.toFixed(2)}%</strong>
             <span class="kpi-sep">·</span>
