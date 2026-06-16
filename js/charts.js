@@ -50,29 +50,22 @@ const ChartsModule = (() => {
       },
       plugins: [{
         id: "axisBreak",
-        beforeDatasetsDraw(chart) {
+        afterDraw(chart) {
           const { ctx, chartArea: { left, right, top, bottom }, scales: { y } } = chart;
-          if (y.min > -200) return;
-
-          const breakTop = y.getPixelForValue(-95);
-          const breakBot = y.getPixelForValue(-255);
-
-          // Cover grid lines in break zone with background so they don't show
+          if (y.min >= -200) return;
+          const breakTop = y.getPixelForValue(-97);
+          const breakBot = y.getPixelForValue(-253);
+          const gap = (breakBot - breakTop) / 4;
           ctx.save();
-          ctx.fillStyle = bgCard;
-          ctx.fillRect(left, breakTop, right - left, breakBot - breakTop);
-
-          // Draw break zigzag marks on left edge
           ctx.strokeStyle = bodyColor;
           ctx.lineWidth = 1.5;
-          const gap = (breakBot - breakTop) / 4;
           ctx.beginPath();
           for (let i = 0; i < 3; i++) {
             const yy = breakTop + gap * (i + 1);
-            ctx.moveTo(left - 3, yy - 3);
-            ctx.lineTo(left + 3, yy + 3);
-            ctx.moveTo(left - 3, yy + 3);
-            ctx.lineTo(left + 3, yy - 3);
+            ctx.moveTo(left - 4, yy - 3);
+            ctx.lineTo(left + 4, yy + 3);
+            ctx.moveTo(left - 4, yy + 3);
+            ctx.lineTo(left + 4, yy - 3);
           }
           ctx.stroke();
           ctx.restore();
@@ -125,7 +118,11 @@ const ChartsModule = (() => {
           },
           y: {
             grid: {
-              color: borderColor,
+              color: function (ctx) {
+                const v = ctx.tick.value;
+                if (v > -250 && v < -100) return "transparent";
+                return borderColor;
+              },
               drawBorder: false,
             },
             ticks: {
