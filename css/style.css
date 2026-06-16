@@ -737,6 +737,69 @@ a:hover {
   font-style: italic;
 }
 
+/* Referral box */
+.referral-box {
+  margin-top: 16px;
+  padding: 16px 20px;
+  background: var(--color-bg-card);
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--color-accent);
+}
+
+.referral-box h4 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-accent);
+  margin-bottom: 8px;
+}
+
+.referral-benefit-text {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.referral-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.btn-referral {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 18px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-family: var(--font-sans);
+  background: var(--color-accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background 0.2s;
+  text-decoration: none;
+}
+.btn-referral:hover {
+  background: var(--color-accent-hover);
+  color: #fff;
+}
+
+.btn-referral-terms {
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.btn-referral-terms:hover {
+  color: var(--color-accent);
+}
+
 .platform-links {
   margin-top: 16px;
   display: flex;
