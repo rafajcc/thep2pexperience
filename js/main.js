@@ -124,8 +124,7 @@
       this.classList.add("active");
 
       const filter = this.dataset.filter;
-      const cards = parent.querySelectorAll(".platform-card");
-      cards.forEach((card) => {
+      document.querySelectorAll(".platform-card").forEach((card) => {
         if (filter === "all") {
           card.style.display = "";
         } else {
