@@ -1,9 +1,14 @@
 const ChartsModule = (() => {
   let mainChart = null;
+  let cachedData = null;
   const COLORS = [
     "#2563eb", "#dc2626", "#16a34a", "#ca8a04",
     "#7c3aed", "#ea580c", "#0891b2", "#be185d",
   ];
+
+  function cssVar(name, fallback = "#fff") {
+    return getComputedStyle(document.documentElement).getPropertyValue(name).trim() || fallback;
+  }
 
   function renderMainChart(canvasId, data) {
     const canvas = document.getElementById(canvasId);
@@ -11,6 +16,12 @@ const ChartsModule = (() => {
     const ctx = canvas.getContext("2d");
 
     if (mainChart) mainChart.destroy();
+    cachedData = data;
+
+    const bodyColor = cssVar("--color-text-secondary");
+    const bgCard = cssVar("--color-bg-card");
+    const textColor = cssVar("--color-text");
+    const borderColor = cssVar("--color-border");
 
     const datasets = [];
     const columns = data.labels
@@ -52,13 +63,14 @@ const ChartsModule = (() => {
               usePointStyle: true,
               pointStyle: "circle",
               font: { family: "'Inter', system-ui, sans-serif", size: 12 },
+              color: textColor,
             },
           },
           tooltip: {
-            backgroundColor: "var(--color-bg-card)",
-            titleColor: "var(--color-text)",
-            bodyColor: "var(--color-text-secondary)",
-            borderColor: "var(--color-border)",
+            backgroundColor: bgCard,
+            titleColor: textColor,
+            bodyColor: bodyColor,
+            borderColor: borderColor,
             borderWidth: 1,
             padding: 12,
             cornerRadius: 8,
@@ -78,12 +90,12 @@ const ChartsModule = (() => {
             ticks: {
               maxTicksLimit: 20,
               font: { size: 11 },
-              color: "var(--color-text-secondary)",
+              color: bodyColor,
             },
           },
           y: {
             grid: {
-              color: "var(--color-border)",
+              color: borderColor,
               drawBorder: false,
             },
             ticks: {
@@ -91,7 +103,7 @@ const ChartsModule = (() => {
                 return value.toFixed(1) + "%";
               },
               font: { size: 11 },
-              color: "var(--color-text-secondary)",
+              color: bodyColor,
             },
           },
         },
@@ -167,5 +179,10 @@ const ChartsModule = (() => {
     container.innerHTML = html;
   }
 
-  return { renderMainChart, renderKPIs, renderTable };
+  function rerender() {
+    const canvas = document.getElementById("main-chart");
+    if (canvas && cachedData) renderMainChart("main-chart", cachedData);
+  }
+
+  return { renderMainChart, renderKPIs, renderTable, rerender };
 })();

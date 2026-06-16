@@ -31,6 +31,7 @@
   if (themeToggle) {
     themeToggle.addEventListener("change", function () {
       setTheme(this.checked ? "dark" : "light");
+      setTimeout(() => ChartsModule.rerender(), 50);
     });
   }
 
@@ -39,6 +40,7 @@
     .addEventListener("change", function (e) {
       if (!localStorage.getItem("theme")) {
         setTheme(e.matches ? "dark" : "light");
+        setTimeout(() => ChartsModule.rerender(), 50);
       }
     });
 
