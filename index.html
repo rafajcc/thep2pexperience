@@ -669,6 +669,16 @@
 
     <div id="chart-container" class="chart-wrapper">
       <canvas id="main-chart"></canvas>
+      <div class="chart-controls">
+        <select id="time-range" class="select-range">
+          <option value="1">1 mes</option>
+          <option value="3">3 meses</option>
+          <option value="6">6 meses</option>
+          <option value="12" selected>&Uacute;ltimo a&ntilde;o</option>
+          <option value="36">3 a&ntilde;os</option>
+          <option value="0">Desde el inicio</option>
+        </select>
+      </div>
     </div>
 
     <h3 style="margin-bottom:16px" data-i18n="rendimiento.tabla">Tabla hist&oacute;rica</h3>

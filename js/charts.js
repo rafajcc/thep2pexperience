@@ -78,8 +78,7 @@ const ChartsModule = (() => {
               label: function (ctx) {
                 if (ctx.parsed.y === null) return null;
                 return ctx.dataset.label + ": " + ctx.parsed.y.toFixed(2) + "%";
-              },
-            },
+          },
           },
         },
         scales: {
@@ -147,6 +146,16 @@ const ChartsModule = (() => {
     });
 
     container.innerHTML = html.join("");
+  }
+
+  function filterData(data, months) {
+    if (months === 0 || months >= data.labels.length) return data;
+    const start = data.labels.length - months;
+    const filtered = { labels: data.labels.slice(start), series: {} };
+    Object.keys(data.series).forEach((col) => {
+      filtered.series[col] = data.series[col].slice(start);
+    });
+    return filtered;
   }
 
   function renderTable(containerId, data) {
@@ -220,5 +229,12 @@ const ChartsModule = (() => {
     if (canvas && cachedData) renderMainChart("main-chart", cachedData);
   }
 
-  return { renderMainChart, renderKPIs, renderTable, rerender };
+  function applyTimeRange(months, fullData) {
+    const data = filterData(fullData, months);
+    renderMainChart("main-chart", data);
+    renderKPIs("kpi-container", data);
+    renderTable("table-container", data);
+  }
+
+  return { renderMainChart, renderKPIs, renderTable, rerender, applyTimeRange };
 })();

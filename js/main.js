@@ -193,14 +193,16 @@
     CSVLoader.loadCSV(CONFIG.csvPath)
       .then((data) => {
         if (loaderEl) loaderEl.style.display = "none";
-        if (chartContainer) {
-          ChartsModule.renderMainChart("main-chart", data);
-        }
-        if (kpiContainer) {
-          ChartsModule.renderKPIs("kpi-container", data);
-        }
-        if (tableContainer) {
-          ChartsModule.renderTable("table-container", data);
+        window.__chartData = data;
+        // Initial render with default range (12 months)
+        ChartsModule.applyTimeRange(12, data);
+
+        const rangeSelect = document.getElementById("time-range");
+        if (rangeSelect) {
+          rangeSelect.addEventListener("change", function () {
+            const months = parseInt(this.value, 10);
+            ChartsModule.applyTimeRange(months, data);
+          });
         }
       })
       .catch((err) => {
