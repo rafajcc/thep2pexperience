@@ -857,6 +857,14 @@ a:hover {
   line-height: 1.6;
 }
 
+.ref-mark {
+  font-size: 0.7rem;
+  color: var(--color-accent);
+  text-decoration: none;
+  vertical-align: super;
+  line-height: 0;
+}
+
 /* ─── Revolut ─────────────────────────────────────────────────── */
 .revolut-reasons {
   display: grid;
