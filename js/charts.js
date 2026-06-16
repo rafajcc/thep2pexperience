@@ -39,7 +39,6 @@ const ChartsModule = (() => {
         pointHoverRadius: 4,
         tension: 0.1,
         spanGaps: true,
-        yAxisID: col === "Bondora" ? "y1" : "y",
       });
     });
 
@@ -49,6 +48,36 @@ const ChartsModule = (() => {
         labels: data.labels,
         datasets: datasets,
       },
+      plugins: [{
+        id: "axisBreak",
+        beforeDatasetsDraw(chart) {
+          const { ctx, chartArea: { left, right, top, bottom }, scales: { y } } = chart;
+          if (y.min > -200) return;
+
+          const breakTop = y.getPixelForValue(-95);
+          const breakBot = y.getPixelForValue(-255);
+
+          // Cover grid lines in break zone with background so they don't show
+          ctx.save();
+          ctx.fillStyle = bgCard;
+          ctx.fillRect(left, breakTop, right - left, breakBot - breakTop);
+
+          // Draw break zigzag marks on left edge
+          ctx.strokeStyle = bodyColor;
+          ctx.lineWidth = 1.5;
+          const gap = (breakBot - breakTop) / 4;
+          ctx.beginPath();
+          for (let i = 0; i < 3; i++) {
+            const yy = breakTop + gap * (i + 1);
+            ctx.moveTo(left - 3, yy - 3);
+            ctx.lineTo(left + 3, yy + 3);
+            ctx.moveTo(left - 3, yy + 3);
+            ctx.lineTo(left + 3, yy - 3);
+          }
+          ctx.stroke();
+          ctx.restore();
+        },
+      }],
       options: {
         responsive: true,
         maintainAspectRatio: false,
@@ -100,31 +129,13 @@ const ChartsModule = (() => {
               drawBorder: false,
             },
             ticks: {
+              maxTicksLimit: 10,
               callback: function (value) {
-                return value.toFixed(1) + "%";
+                if (value > -250 && value < -100) return "\u2026";
+                return value.toFixed(0) + "%";
               },
               font: { size: 11 },
               color: bodyColor,
-            },
-          },
-          y1: {
-            grid: {
-              display: false,
-              drawBorder: false,
-            },
-            position: "right",
-            ticks: {
-              callback: function (value) {
-                return value.toFixed(1) + "%";
-              },
-              font: { size: 11 },
-              color: COLORS[1], // Bondora color
-            },
-            title: {
-              display: true,
-              text: "Bondora",
-              color: COLORS[1],
-              font: { size: 11, weight: "bold" },
             },
           },
         },
