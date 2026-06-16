@@ -375,17 +375,17 @@ a:hover {
   color: var(--color-accent);
 }
 
-.btn-table-more {
-  display: block;
-  margin: 20px auto 0;
-  font-size: 0.85rem;
+.table-btn-row .btn {
+  font-size: 0.8rem;
+  padding: 6px 14px;
 }
 
 .table-btn-row {
   display: flex;
   justify-content: center;
-  gap: 12px;
-  margin-top: 20px;
+  gap: 8px;
+  margin-top: 4px;
+  margin-bottom: 32px;
 }
 .about-grid {
   display: grid;
