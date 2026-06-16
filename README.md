@@ -1,103 +1,105 @@
 # The P2P Experience
 
-Web estática informativa y editorial sobre inversión en préstamos P2P. Proyecto personal con seguimiento de rendimiento, fichas de plataformas, análisis y datos reales.
+> **ES** — Web estática informativa y editorial sobre inversión en préstamos P2P. Proyecto personal con seguimiento de rendimiento, fichas de plataformas, análisis y datos reales.
+>
+> **EN** — Informational static site about P2P lending investing. Personal project with performance tracking, platform profiles, analysis and real data.
 
-## Estructura del proyecto
+## Versión / Version
+
+**v0.1.9**
+
+## Estructura del proyecto / Project structure
 
 ```
-├── index.html          # Página principal (única)
+├── index.html            # Página principal (SPA) / Main page
 ├── css/
-│   └── style.css       # Estilos completos (tema claro/oscuro, responsive)
+│   └── style.css         # Estilos completos (tema claro/oscuro, responsive)
 ├── js/
-│   ├── config.js       # Configuración central (plataformas, referidos, rutas)
-│   ├── i18n.js         # Sistema de internacionalización
-│   ├── csv-loader.js   # Carga y parseo del CSV de rendimiento
-│   ├── charts.js       # Renderizado de gráficas (Chart.js)
-│   └── main.js         # Lógica principal (tema, nav, tabs, acordeones)
+│   ├── config.js         # Configuración (plataformas, referidos, rutas)
+│   ├── i18n.js           # Sistema de internacionalización / i18n system
+│   ├── csv-loader.js     # Carga y parseo del CSV de rendimiento
+│   ├── charts.js         # Gráficas con Chart.js / Charts with Chart.js
+│   └── main.js           # Lógica principal (tema, nav, tabs, acordeones)
 ├── i18n/
-│   ├── es.json         # Textos en español
-│   └── en.json         # Textos en inglés
+│   ├── es.json           # Textos en español / Spanish texts
+│   └── en.json           # Textos en inglés / English texts
+├── img/
+│   ├── logo.svg          # Logo (escudo + radar + P2P)
+│   └── favicon.svg       # Favicon
 ├── data/
-│   └── rendimiento.csv # Datos de rendimiento mensual
+│   └── rendimiento.csv   # Datos de rendimiento mensual / Monthly performance data
 ├── .gitignore
 └── README.md
 ```
 
-## Cómo mantener el sitio
+## Despliegue / Deployment
 
-### Cambiar enlaces de referido
+**ES** — Desplegado en Cloudflare Pages. Cada push a `main` se despliega automáticamente.
 
-Abre `js/config.js` y edita la sección `referrals`:
+**EN** — Deployed on Cloudflare Pages. Every push to `main` auto-deploys.
+
+## Cómo mantener el sitio / How to maintain
+
+### Cambiar enlaces de referido / Change referral links
+
+**ES:** Abre `js/config.js` y edita la sección `referrals`.
+
+**EN:** Open `js/config.js` and edit the `referrals` section.
 
 ```js
 referrals: {
-    mintos: "https://tus-enlace-de-referido",
-    bondora: "YOUR_BONDORA_REFERRAL_URL",
+    mintos:  { url: "https://...", terms: "https://..." },
+    bondora: { url: "https://...", terms: "https://..." },
     // ...
 }
 ```
 
-Los valores que empiezan por `YOUR_` aparecerán desactivados en la web (no funcionales) hasta que los reemplaces con URLs reales.
+### Editar textos / Edit texts
 
-### Editar textos
+**ES:** Los textos están en `i18n/es.json` y `i18n/en.json`. Busca la clave y edita el valor.
 
-Los textos están centralizados en:
-- Español: `i18n/es.json`
-- Inglés: `i18n/en.json`
+**EN:** Texts are in `i18n/es.json` and `i18n/en.json`. Find the key and edit the value.
 
-Busca la clave correspondiente a la sección que quieras modificar y edita el valor. No necesitas tocar el HTML.
+### Añadir plataforma / Add a platform
 
-### Desactivar una plataforma
+1. Añadir entrada en `js/config.js` (`platforms` + `referrals`)
+2. Añadir traducciones en `i18n/es.json` e `i18n/en.json` (claves `plataforma_*`)
+3. Añadir HTML en `index.html` siguiendo el patrón existente
 
-En `js/config.js`, cambia `active: true` a `active: false` en la plataforma correspondiente:
+### Actualizar CSV / Update CSV
 
-```js
-platforms: {
-    loanch: {
-        active: false,
-        // ...
-    },
-}
-```
+**ES:** Reemplaza `data/rendimiento.csv`. Formato: `Fecha,Plataforma1,Plataforma2,...` con datos mensuales.
 
-La plataforma desaparecerá de la web automáticamente.
+**EN:** Replace `data/rendimiento.csv`. Format: `Date,Platform1,Platform2,...` with monthly data.
 
-### Añadir una nueva plataforma
+### Añadir idioma / Add a language
 
-1. Añade la entrada en `CONFIG.platforms` en `js/config.js` con `active: true/false` y la URL oficial.
-2. Añade el enlace de referido en `CONFIG.referrals`.
-3. Añade las traducciones en `i18n/es.json` y `i18n/en.json` con las claves `plataforma_*`.
-4. Añade el HTML de la ficha en `index.html`, siguiendo el mismo patrón que las existentes (con `data-platform`, `data-category`, y las secciones correspondientes).
+1. Crear `i18n/nuevo-idioma.json` (copiar `en.json` como base)
+2. Añadir botón en el HTML: `<button class="lang-btn" data-lang="xx">XX</button>`
 
-### Actualizar el CSV de rendimiento
+## Funcionalidades / Features
 
-Reemplaza `data/rendimiento.csv` con tu archivo actualizado. La estructura esperada es:
+| ES | EN |
+|---|---|
+| Fichas de 7 plataformas P2P con información, riesgos y experiencia personal | Profiles of 7 P2P platforms with info, risks and personal experience |
+| Sección Revolut y Kraken con información útil para inversores P2P | Revolut and Kraken sections with info useful for P2P investors |
+| Gráfico interactivo de rendimiento (Chart.js) con selector de rango temporal | Interactive performance chart (Chart.js) with time range selector |
+| Tabla histórica con paginación "Ver más / Ver menos" | Historical table with "Show more / Show less" pagination |
+| KPIs: media, máximo, mínimo y último valor del periodo | KPIs: average, max, min and latest value for the period |
+| Tema claro/oscuro automático y manual | Auto and manual light/dark theme |
+| Internacionalización español/inglés | Spanish/English internationalization |
+| Enlaces de referido con términos legales | Referral links with legal terms |
+| Logo propio (escudo + radar + moneda P2P) y favicon SVG | Custom logo (shield + radar + P2P coin) and SVG favicon |
+| Diseño responsive | Responsive design |
 
-```
-Fecha,Plataforma1,Plataforma2,...
-ene-24,"12,50%","8,30%",...
-```
+## Requisitos / Requirements
 
-- Primera línea: cabecera con nombre de columnas (se ignora la primera celda).
-- Segunda línea: nombres de plataformas.
-- Resto: datos mensuales con formato `ene-24`, `"12,50%"` (usando coma decimal y %).
-- Añadir una nueva fila = aparece automáticamente en la gráfica y la tabla.
+- Servidor web estático / Static web server
+- Sin backend ni build tools / No backend or build tools needed
+- Chart.js vía CDN (cargado desde `index.html`) / Chart.js via CDN (loaded from `index.html`)
 
-### Añadir un idioma nuevo
+## Disclaimer
 
-1. Crea `i18n/nuevo-idioma.json` (copia `en.json` como base y tradúcelo).
-2. Añade un botón en el HTML junto a los existentes: `<button class="lang-btn" data-lang="xx">XX</button>`.
-
-### Disclaimer importante
-
-Este proyecto usa contenido editorial con información verificable hasta donde es posible. Las opiniones personales están claramente marcadas. No constituye asesoramiento financiero.
-
-## Requisitos
-
-- Servidor web estático (Apache, Nginx, Netlify, Vercel, GitHub Pages...)
-- No necesita backend ni build tools
-- Chart.js cargado vía CDN (funciona offline si descargas la librería)
-
-## Versión
-
-v0.0.1
+> **ES** — Este sitio es un proyecto personal informativo. No constituye asesoramiento financiero. Algunos enlaces son de referido/afiliación.
+>
+> **EN** — This site is a personal informational project. It does not constitute financial advice. Some links are referral/affiliate links.
