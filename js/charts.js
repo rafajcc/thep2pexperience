@@ -154,29 +154,50 @@ const ChartsModule = (() => {
     if (!container) return;
 
     const columns = Object.keys(data.series);
-    let html = `
-      <div class="table-wrapper">
-        <table class="data-table">
-          <thead>
-            <tr>
-              <th data-i18n="rendimiento.fecha">Fecha</th>
-              ${columns.map((c) => `<th>${c}</th>`).join("")}
-            </tr>
-          </thead>
-          <tbody>
-    `;
+    const totalRows = data.labels.length;
+    let visibleCount = 12;
 
-    for (let i = data.labels.length - 1; i >= 0; i--) {
-      html += `<tr><td>${data.labels[i]}</td>`;
-      columns.forEach((col) => {
-        const val = data.series[col][i];
-        html += `<td class="${val !== null ? (val >= 0 ? 'positive' : 'negative') : ''}">${val !== null ? val.toFixed(2) + '%' : '—'}</td>`;
-      });
-      html += "</tr>";
+    function buildTable(rowsToShow) {
+      const start = Math.max(0, totalRows - rowsToShow);
+      let html = `
+        <div class="table-wrapper">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th data-i18n="rendimiento.fecha">Fecha</th>
+                ${columns.map((c) => `<th>${c}</th>`).join("")}
+              </tr>
+            </thead>
+            <tbody>
+      `;
+
+      for (let i = totalRows - 1; i >= start; i--) {
+        html += `<tr><td>${data.labels[i]}</td>`;
+        columns.forEach((col) => {
+          const val = data.series[col][i];
+          html += `<td class="${val !== null ? (val >= 0 ? 'positive' : 'negative') : ''}">${val !== null ? val.toFixed(2) + '%' : '—'}</td>`;
+        });
+        html += "</tr>";
+      }
+
+      html += `</tbody></table></div>`;
+
+      if (start > 0) {
+        html += `<button class="btn btn-outline btn-table-more" data-i18n="rendimiento.ver_mas">Ver m&aacute;s</button>`;
+      }
+
+      container.innerHTML = html;
+
+      const moreBtn = container.querySelector(".btn-table-more");
+      if (moreBtn) {
+        moreBtn.addEventListener("click", function () {
+          visibleCount += 12;
+          buildTable(visibleCount);
+        });
+      }
     }
 
-    html += `</tbody></table></div>`;
-    container.innerHTML = html;
+    buildTable(visibleCount);
   }
 
   function rerender() {

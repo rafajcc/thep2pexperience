@@ -375,7 +375,11 @@ a:hover {
   color: var(--color-accent);
 }
 
-/* ─── About / Que es ──────────────────────────────────────────── */
+.btn-table-more {
+  display: block;
+  margin: 20px auto 0;
+  font-size: 0.85rem;
+}
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
