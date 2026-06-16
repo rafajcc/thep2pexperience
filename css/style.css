@@ -380,6 +380,13 @@ a:hover {
   margin: 20px auto 0;
   font-size: 0.85rem;
 }
+
+.table-btn-row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;

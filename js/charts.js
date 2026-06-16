@@ -183,11 +183,15 @@ const ChartsModule = (() => {
 
       html += `</tbody></table></div>`;
 
-      if (start > 0) {
-        html += `<button class="btn btn-outline btn-table-more">Ver m&aacute;s</button>`;
-      }
-      if (rowsToShow > STEP) {
-        html += `<button class="btn btn-outline btn-table-less">Ver menos</button>`;
+      if (start > 0 || rowsToShow > STEP) {
+        html += `<div class="table-btn-row">`;
+        if (start > 0) {
+          html += `<button class="btn btn-outline btn-table-more">Ver m&aacute;s</button>`;
+        }
+        if (rowsToShow > STEP) {
+          html += `<button class="btn btn-outline btn-table-less">Ver menos</button>`;
+        }
+        html += `</div>`;
       }
 
       container.innerHTML = html;
