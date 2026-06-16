@@ -6,8 +6,19 @@ const ChartsModule = (() => {
     "#7c3aed", "#ea580c", "#0891b2", "#be185d",
   ];
 
-  function cssVar(name, fallback = "#fff") {
+  function cssVar(name, fallback) {
     return getComputedStyle(document.documentElement).getPropertyValue(name).trim() || fallback;
+  }
+
+  function themeColor(name) {
+    const lightFallbacks = {
+      "--color-text": "#1a1a2e",
+      "--color-text-secondary": "#555570",
+      "--color-bg-card": "#ffffff",
+      "--color-border": "#e2e2ec",
+    };
+    const val = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+    return val || lightFallbacks[name] || "#fff";
   }
 
   function renderMainChart(canvasId, data) {
@@ -18,10 +29,10 @@ const ChartsModule = (() => {
     if (mainChart) mainChart.destroy();
     cachedData = data;
 
-    const bodyColor = cssVar("--color-text-secondary");
-    const bgCard = cssVar("--color-bg-card");
-    const textColor = cssVar("--color-text");
-    const borderColor = cssVar("--color-border");
+    const bodyColor = themeColor("--color-text-secondary");
+    const bgCard = themeColor("--color-bg-card");
+    const textColor = themeColor("--color-text");
+    const borderColor = themeColor("--color-border");
 
     const datasets = [];
     const columns = data.labels
