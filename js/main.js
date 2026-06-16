@@ -139,12 +139,20 @@
   document.querySelectorAll(".platform-card").forEach((card) => {
     const toggle = card.querySelector(".platform-toggle");
     const content = card.querySelector(".platform-content");
+    const header = card.querySelector(".platform-header");
     if (toggle && content) {
-      toggle.addEventListener("click", function () {
+      function toggleCard() {
         const isOpen = card.classList.toggle("open");
         toggle.setAttribute("aria-expanded", isOpen);
         content.style.maxHeight = isOpen ? content.scrollHeight + "px" : "0";
-      });
+      }
+      toggle.addEventListener("click", toggleCard);
+      if (header) {
+        header.addEventListener("click", function (e) {
+          if (e.target.closest(".platform-toggle, a, button")) return;
+          toggleCard();
+        });
+      }
     }
   });
 
