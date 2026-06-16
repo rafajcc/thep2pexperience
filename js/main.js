@@ -61,7 +61,7 @@
         const key = "plataforma_" + platform + ".referido_beneficio";
         const text = I18n.t(key);
         if (text !== key) {
-          el.textContent = text;
+      el.textContent = text + " (*)";
           el.style.display = "block";
         }
       });
