@@ -115,13 +115,15 @@ const ChartsModule = (() => {
       const maxVal = Math.max(...values);
       const nonZeroValues = values.filter((v) => v !== 0);
       const minVal = nonZeroValues.length > 0 ? Math.min(...nonZeroValues) : 0;
-      const avg = values.reduce((a, b) => a + b, 0) / values.length;
+      const avg = nonZeroValues.length > 0
+        ? nonZeroValues.reduce((a, b) => a + b, 0) / nonZeroValues.length
+        : 0;
 
       html.push(`
         <div class="kpi-card" data-column="${col}">
           <h4 class="kpi-title">${col}</h4>
-          <div class="kpi-label">Media del periodo</div>
           <div class="kpi-value ${avg >= 0 ? 'positive' : 'negative'}">${avg.toFixed(2)}%</div>
+          <div class="kpi-label">media</div>
           <div class="kpi-meta">
             <span>M&aacute;ximo hist.</span> <strong>${maxVal.toFixed(2)}%</strong>
             <span class="kpi-sep">·</span>
