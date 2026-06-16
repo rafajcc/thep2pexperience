@@ -162,6 +162,8 @@
       "reguladas": "Reguladas",
       "no_reguladas": "No reguladas"
     },
+    "badge_regulada": "Regulada",
+    "badge_no_regulada": "No regulada",
     "invertir_ahora": "Invertir ahora",
     "nota_referido": "Algunos enlaces de la web son enlaces de referido o afiliación. Si los usas, es posible que reciba una compensación, sin coste adicional para ti. Infórmate de las condiciones vigentes en cada programa.",
     "terminos_referido": "Términos del referido",
