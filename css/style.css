@@ -937,14 +937,14 @@ a:hover {
   border: 1px solid var(--color-border);
 }
 
-.revolut-reason h4 {
-  font-size: 0.95rem;
-  font-weight: 600;
-  margin-bottom: 6px;
+.revolut-reason strong {
+  font-weight: 700;
+  color: var(--color-accent);
+  margin-right: 4px;
 }
 
 .revolut-reason p {
-  font-size: 0.875rem;
+  font-size: 0.95rem;
   color: var(--color-text-secondary);
   line-height: 1.6;
 }
