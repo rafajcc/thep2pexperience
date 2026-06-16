@@ -57,13 +57,14 @@ const ChartsModule = (() => {
         },
         plugins: {
           legend: {
-            position: "top",
+            position: window.innerWidth < 640 ? "bottom" : "top",
             labels: {
-              padding: 16,
+              padding: 12,
               usePointStyle: true,
               pointStyle: "circle",
-              font: { family: "'Inter', system-ui, sans-serif", size: 12 },
+              font: { family: "'Inter', system-ui, sans-serif", size: window.innerWidth < 640 ? 10 : 12 },
               color: textColor,
+              boxWidth: window.innerWidth < 640 ? 10 : 16,
             },
           },
           tooltip: {
