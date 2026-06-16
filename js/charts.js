@@ -48,29 +48,6 @@ const ChartsModule = (() => {
         labels: data.labels,
         datasets: datasets,
       },
-      plugins: [{
-        id: "axisBreak",
-        afterDraw(chart) {
-          const { ctx, chartArea: { left, right, top, bottom }, scales: { y } } = chart;
-          if (y.min >= -200) return;
-          const breakTop = y.getPixelForValue(-97);
-          const breakBot = y.getPixelForValue(-253);
-          const gap = (breakBot - breakTop) / 4;
-          ctx.save();
-          ctx.strokeStyle = bodyColor;
-          ctx.lineWidth = 1.5;
-          ctx.beginPath();
-          for (let i = 0; i < 3; i++) {
-            const yy = breakTop + gap * (i + 1);
-            ctx.moveTo(left - 4, yy - 3);
-            ctx.lineTo(left + 4, yy + 3);
-            ctx.moveTo(left - 4, yy + 3);
-            ctx.lineTo(left + 4, yy - 3);
-          }
-          ctx.stroke();
-          ctx.restore();
-        },
-      }],
       options: {
         responsive: true,
         maintainAspectRatio: false,
@@ -118,18 +95,12 @@ const ChartsModule = (() => {
           },
           y: {
             grid: {
-              color: function (ctx) {
-                const v = ctx.tick.value;
-                if (v > -250 && v < -100) return "transparent";
-                return borderColor;
-              },
+              color: borderColor,
               drawBorder: false,
             },
             ticks: {
-              maxTicksLimit: 10,
               callback: function (value) {
-                if (value > -250 && value < -100) return "\u2026";
-                return value.toFixed(0) + "%";
+                return value.toFixed(1) + "%";
               },
               font: { size: 11 },
               color: bodyColor,
