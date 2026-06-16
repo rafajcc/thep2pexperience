@@ -39,6 +39,7 @@ const ChartsModule = (() => {
         pointHoverRadius: 4,
         tension: 0.1,
         spanGaps: true,
+        yAxisID: col === "Bondora" ? "y1" : "y",
       });
     });
 
@@ -104,6 +105,26 @@ const ChartsModule = (() => {
               },
               font: { size: 11 },
               color: bodyColor,
+            },
+          },
+          y1: {
+            grid: {
+              display: false,
+              drawBorder: false,
+            },
+            position: "right",
+            ticks: {
+              callback: function (value) {
+                return value.toFixed(1) + "%";
+              },
+              font: { size: 11 },
+              color: COLORS[1], // Bondora color
+            },
+            title: {
+              display: true,
+              text: "Bondora",
+              color: COLORS[1],
+              font: { size: 11, weight: "bold" },
             },
           },
         },
