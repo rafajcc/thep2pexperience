@@ -194,19 +194,51 @@
   // ─── Referral link generation ──────────────────────────────────
   document.querySelectorAll("[data-referral]").forEach((el) => {
     const platform = el.dataset.referral;
-    const url = CONFIG.referrals[platform];
-    if (url && url.startsWith("YOUR_")) {
+    const ref = CONFIG.referrals[platform];
+    if (!ref) {
       el.textContent = I18n.t("plataformas.no_disponible");
       el.href = "#";
       el.style.opacity = "0.4";
       el.style.pointerEvents = "none";
-    } else if (url) {
-      el.href = url;
+      return;
+    }
+    // Handle referral with code (no direct URL)
+    if (ref.code) {
+      el.textContent = "Código: " + ref.code;
+      el.href = "#";
+      el.style.cursor = "text";
+      el.style.textDecoration = "none";
+      return;
+    }
+    if (ref.url) {
+      el.href = ref.url;
     } else {
       el.textContent = I18n.t("plataformas.no_disponible");
       el.href = "#";
       el.style.opacity = "0.4";
       el.style.pointerEvents = "none";
+    }
+  });
+
+  // ─── Referral terms links ──────────────────────────────────────
+  document.querySelectorAll("[data-referral-terms]").forEach((el) => {
+    const platform = el.dataset.referralTerms;
+    const ref = CONFIG.referrals[platform];
+    if (ref && ref.terms) {
+      el.href = ref.terms;
+    } else {
+      el.style.display = "none";
+    }
+  });
+
+  // ─── Show referral benefit text on cards ───────────────────────
+  document.querySelectorAll("[data-referral-benefit]").forEach((el) => {
+    const platform = el.dataset.referralBenefit;
+    const key = "plataforma_" + platform + ".referido_beneficio";
+    const text = I18n.t(key);
+    if (text !== key) {
+      el.textContent = text;
+      el.style.display = "block";
     }
   });
 

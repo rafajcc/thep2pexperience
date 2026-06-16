@@ -162,7 +162,8 @@
       "reguladas": "Reguladas",
       "no_reguladas": "No reguladas"
     },
-    "nota_referido": "Algunos enlaces de la web son enlaces de referido o afiliación. Si los usas, es posible que reciba una compensación, sin coste adicional para ti. Infórmate de las condiciones vigentes en cada programa."
+    "nota_referido": "Algunos enlaces de la web son enlaces de referido o afiliación. Si los usas, es posible que reciba una compensación, sin coste adicional para ti. Infórmate de las condiciones vigentes en cada programa.",
+    "terminos_referido": "Términos del referido"
   },
   "plataforma_bondora": {
     "nombre": "Bondora",
@@ -180,7 +181,8 @@
       "La rentabilidad de Go & Grow no está garantizada y puede ajustarse."
     ],
     "perfil": "Inversores que buscan una plataforma con trayectoria y producto automatizado, asumiendo los riesgos del mercado de préstamos personales.",
-    "experiencia": "Bondora fue la primera plataforma de la que oí hablar y en la que invertí. En ella aprendí sobre riesgos, mercado secundario y venta de préstamos con descuento. Como estaba en fase de aprendizaje, mi rendimiento fue decayendo y poco a poco fui prefiriendo plataformas que me resultaban más cómodas de usar, como Mintos o Twino. Actualmente mi cartera en Bondora está centrada en Go & Grow como opción sencilla."
+    "experiencia": "Bondora fue la primera plataforma de la que oí hablar y en la que invertí. En ella aprendí sobre riesgos, mercado secundario y venta de préstamos con descuento. Como estaba en fase de aprendizaje, mi rendimiento fue decayendo y poco a poco fui prefiriendo plataformas que me resultaban más cómodas de usar, como Mintos o Twino. Actualmente mi cartera en Bondora está centrada en Go & Grow como opción sencilla.",
+    "referido_beneficio": "Beneficio: 5 € por registro (inversión mín. 50 €). Se aplican términos y condiciones."
   },
   "plataforma_mintos": {
     "nombre": "Mintos",
@@ -198,7 +200,8 @@
       "No todos los originadores están supervisados directamente por la plataforma."
     ],
     "perfil": "Inversores que buscan variedad de productos, herramientas de análisis y mercados secundarios activos.",
-    "experiencia": "Mintos es una de las plataformas más conocidas del sector, y durante mucho tiempo me ha dado buena rentabilidad. He tenido un problema con una entidad dentro de la plataforma que dejó de pagar, pero mi experiencia es que Mintos ha gestionado la recuperación manteniendo informados a los inversores. Esto no significa que vaya a ser así siempre, pero en mi caso ha sido llevadero."
+    "experiencia": "Mintos es una de las plataformas más conocidas del sector, y durante mucho tiempo me ha dado buena rentabilidad. He tenido un problema con una entidad dentro de la plataforma que dejó de pagar, pero mi experiencia es que Mintos ha gestionado la recuperación manteniendo informados a los inversores. Esto no significa que vaya a ser así siempre, pero en mi caso ha sido llevadero.",
+    "referido_beneficio": "Beneficio: 25 € + 1% de su inversión (mín. 1.000 € en 60 días). Se aplican términos y condiciones."
   },
   "plataforma_twino": {
     "nombre": "Twino",
@@ -215,7 +218,8 @@
       "Dependencia del mercado de préstamos empresariales."
     ],
     "perfil": "Inversores que prefieren un perfil más conservador dentro del P2P, con préstamos respaldados por activos.",
-    "experiencia": "Me parece una plataforma sencilla de usar y bastante constante en el tiempo. En mi caso no he tenido problemas relevantes."
+    "experiencia": "Me parece una plataforma sencilla de usar y bastante constante en el tiempo. En mi caso no he tenido problemas relevantes.",
+    "referido_beneficio": "Beneficio: hasta 2% de bonificación en efectivo por todas las inversiones en el mercado primario durante los primeros 90 días. Se aplican términos y condiciones."
   },
   "plataforma_maclear": {
     "nombre": "Maclear",
@@ -231,7 +235,8 @@
       "Menor volumen de préstamos y liquidez."
     ],
     "perfil": "Inversores interesados en explorar plataformas más nuevas con exposición a activos digitales.",
-    "experiencia": "Maclear es una plataforma joven y poco a poco ha ido incorporando mejoras. Su mercado secundario me resulta especialmente fácil de utilizar."
+    "experiencia": "Maclear es una plataforma joven y poco a poco ha ido incorporando mejoras. Su mercado secundario me resulta especialmente fácil de utilizar.",
+    "referido_beneficio": "Beneficio: 3% del importe de la inversión para ambas partes durante los primeros 90 días. Se aplican términos y condiciones."
   },
   "plataforma_debitum": {
     "nombre": "Debitum",
@@ -248,7 +253,8 @@
       "Garantías no siempre ejecutables con facilidad."
     ],
     "perfil": "Inversores que buscan exponerse al segmento empresarial con garantías, fuera del préstamo al consumo.",
-    "experiencia": "Me parece diferente a otras plataformas porque se centra en financiación a empresas en lugar de particulares. En mi experiencia ha funcionado bien y su web me resulta intuitiva."
+    "experiencia": "Me parece diferente a otras plataformas porque se centra en financiación a empresas en lugar de particulares. En mi experiencia ha funcionado bien y su web me resulta intuitiva.",
+    "referido_beneficio": "Beneficio: 20 € por referido (inversión mín. 1.000 € en 30 días tras KYC). Se aplican términos y condiciones."
   },
   "plataforma_loanch": {
     "nombre": "Loanch",
@@ -265,7 +271,8 @@
       "Posible menor estabilidad frente a plataformas reguladas."
     ],
     "perfil": "Inversores dispuestos a asumir mayor riesgo a cambio de potenciales rentabilidades altas en plazos cortos.",
-    "experiencia": "Desde el primer momento me ha ofrecido rentabilidades altas en préstamos a muy corto plazo. Dicho esto, es una plataforma con menor trayectoria que otras y conviene seguirla de cerca. En mi experiencia personal funciona, pero cada uno debe valorar su propio perfil de riesgo."
+    "experiencia": "Desde el primer momento me ha ofrecido rentabilidades altas en préstamos a muy corto plazo. Dicho esto, es una plataforma con menor trayectoria que otras y conviene seguirla de cerca. En mi experiencia personal funciona, pero cada uno debe valorar su propio perfil de riesgo.",
+    "referido_beneficio": "Beneficio: 1% del saldo de inversión diario medio durante los primeros 90 días (máx. 500 €). Se aplican términos y condiciones."
   },
   "plataforma_8lends": {
     "nombre": "8lends",
@@ -282,7 +289,8 @@
       "Las recompensas en tokens no son equivalentes a rentabilidad garantizada."
     ],
     "perfil": "Inversores con experiencia en criptomonedas que buscan plataformas que integren DeFi con lending tradicional.",
-    "experiencia": "8lends pertenece al mismo grupo que Maclear y me parece algo más compleja de usar, porque exige manejar cartera de criptomonedas, convertir fondos a USDC y gestionar manualmente inversiones y retiradas. Esto la hace más engorrosa y a veces más compleja por sus protocolos de seguridad, aunque personalmente me siento cómodo usándola. Además, incluye recompensas en tokens de la plataforma, algo que no debe confundirse con rentabilidad garantizada."
+    "experiencia": "8lends pertenece al mismo grupo que Maclear y me parece algo más compleja de usar, porque exige manejar cartera de criptomonedas, convertir fondos a USDC y gestionar manualmente inversiones y retiradas. Esto la hace más engorrosa y a veces más compleja por sus protocolos de seguridad, aunque personalmente me siento cómodo usándola. Además, incluye recompensas en tokens de la plataforma, algo que no debe confundirse con rentabilidad garantizada.",
+    "referido_beneficio": "Beneficio: 30 USD por la primera inversión. Se aplican términos y condiciones."
   },
   "revolut": {
     "title": "Revolut y Revolut Metal",
@@ -296,7 +304,8 @@
     ],
     "condiciones": "Las condiciones, beneficios y campañas de Revolut pueden variar según el plan, el país y el momento. No asumas que todas las ventajas están disponibles permanentemente ni en todas las regiones. Es recomendable consultar la web oficial para conocer los términos vigentes.",
     "nota_referido": "Los requisitos y recompensas del programa de referido pueden cambiar según campaña y país. Infórmate de los términos actuales antes de usar un enlace de referido.",
-    "cta": "Más información en Revolut"
+    "cta": "Más información en Revolut",
+    "referido_beneficio": "Beneficio: 50 € por referido. Se aplican términos y condiciones."
   },
   "rendimiento": {
     "title": "Rendimiento de mis inversiones",

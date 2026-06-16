@@ -162,7 +162,8 @@
       "reguladas": "Regulated",
       "no_reguladas": "Non-regulated"
     },
-    "nota_referido": "Some links on this website are referral or affiliate links. If you use them, I may receive compensation at no extra cost to you. Check the current terms of each program."
+    "nota_referido": "Some links on this website are referral or affiliate links. If you use them, I may receive compensation at no extra cost to you. Check the current terms of each program.",
+    "terminos_referido": "Referral terms"
   },
   "plataforma_bondora": {
     "nombre": "Bondora",
@@ -180,7 +181,8 @@
       "Go & Grow returns are not guaranteed and may be adjusted."
     ],
     "perfil": "Investors looking for an established platform with an automated product, accepting the risks of the personal loan market.",
-    "experiencia": "Bondora was the first platform I heard about and invested in. I learned about risks, secondary market, and selling loans at a discount through it. Since I was in a learning phase, my returns gradually declined and I slowly shifted to platforms I found more convenient, like Mintos or Twino. My current Bondora portfolio is mainly in Go & Grow as a simple option."
+    "experiencia": "Bondora was the first platform I heard about and invested in. I learned about risks, secondary market, and selling loans at a discount through it. Since I was in a learning phase, my returns gradually declined and I slowly shifted to platforms I found more convenient, like Mintos or Twino. My current Bondora portfolio is mainly in Go & Grow as a simple option.",
+    "referido_beneficio": "Benefit: €5 upon sign-up (min. €50 investment). Terms and conditions apply."
   },
   "plataforma_mintos": {
     "nombre": "Mintos",
@@ -198,7 +200,8 @@
       "Not all originators are directly supervised by the platform."
     ],
     "perfil": "Investors seeking product variety, analysis tools, and active secondary markets.",
-    "experiencia": "Mintos is one of the best-known platforms in the sector, and for a long time it has given me good returns. I had an issue with one entity within the platform that stopped paying, but my experience is that Mintos has managed the recovery and kept investors informed. This doesn't mean it will always be the case, but in my case it has been manageable."
+    "experiencia": "Mintos is one of the best-known platforms in the sector, and for a long time it has given me good returns. I had an issue with one entity within the platform that stopped paying, but my experience is that Mintos has managed the recovery and kept investors informed. This doesn't mean it will always be the case, but in my case it has been manageable.",
+    "referido_beneficio": "Benefit: €25 + 1% of their investment (min. €1,000 within 60 days). Terms and conditions apply."
   },
   "plataforma_twino": {
     "nombre": "Twino",
@@ -215,7 +218,8 @@
       "Dependence on the business loan market."
     ],
     "perfil": "Investors who prefer a more conservative profile within P2P, with asset-backed loans.",
-    "experiencia": "I find it a straightforward platform to use and quite consistent over time. I have not had any significant issues with it."
+    "experiencia": "I find it a straightforward platform to use and quite consistent over time. I have not had any significant issues with it.",
+    "referido_beneficio": "Benefit: up to 2% cash bonus on all primary market investments within the first 90 days. Terms and conditions apply."
   },
   "plataforma_maclear": {
     "nombre": "Maclear",
@@ -231,7 +235,8 @@
       "Lower loan volume and liquidity."
     ],
     "perfil": "Investors interested in exploring newer platforms with exposure to digital assets.",
-    "experiencia": "Maclear is a young platform and has been gradually adding improvements. I find its secondary market particularly easy to use."
+    "experiencia": "Maclear is a young platform and has been gradually adding improvements. I find its secondary market particularly easy to use.",
+    "referido_beneficio": "Benefit: 3% of the investment amount for both parties during the first 90 days. Terms and conditions apply."
   },
   "plataforma_debitum": {
     "nombre": "Debitum",
@@ -248,7 +253,8 @@
       "Collateral may not always be easily enforceable."
     ],
     "perfil": "Investors looking for exposure to the business segment with collateral, outside consumer lending.",
-    "experiencia": "I find it different from other platforms because it focuses on business financing rather than individuals. In my experience it has worked well and I find its website intuitive."
+    "experiencia": "I find it different from other platforms because it focuses on business financing rather than individuals. In my experience it has worked well and I find its website intuitive.",
+    "referido_beneficio": "Benefit: €20 per referral (min. €1,000 investment within 30 days after KYC). Terms and conditions apply."
   },
   "plataforma_loanch": {
     "nombre": "Loanch",
@@ -265,7 +271,8 @@
       "Potentially lower stability compared to regulated platforms."
     ],
     "perfil": "Investors willing to take higher risk in exchange for potentially high returns over short terms.",
-    "experiencia": "From the start, it has offered me high returns on very short-term loans. That said, it has a shorter track record than other platforms and needs to be monitored closely. In my personal experience it works, but everyone should assess their own risk profile."
+    "experiencia": "From the start, it has offered me high returns on very short-term loans. That said, it has a shorter track record than other platforms and needs to be monitored closely. In my personal experience it works, but everyone should assess their own risk profile.",
+    "referido_beneficio": "Benefit: 1% of average daily investment portfolio within the first 90 days (max. €500). Terms and conditions apply."
   },
   "plataforma_8lends": {
     "nombre": "8lends",
@@ -282,7 +289,8 @@
       "Token rewards are not equivalent to guaranteed returns."
     ],
     "perfil": "Investors with cryptocurrency experience looking for platforms that integrate DeFi with traditional lending.",
-    "experiencia": "8lends belongs to the same group as Maclear and I find it somewhat more complex to use, as it requires managing a crypto wallet, converting funds to USDC, and manually handling investments and withdrawals. This makes it more cumbersome, with stricter security protocols, though I personally feel comfortable using it. It also includes platform token rewards, which should not be mistaken for guaranteed returns."
+    "experiencia": "8lends belongs to the same group as Maclear and I find it somewhat more complex to use, as it requires managing a crypto wallet, converting funds to USDC, and manually handling investments and withdrawals. This makes it more cumbersome, with stricter security protocols, though I personally feel comfortable using it. It also includes platform token rewards, which should not be mistaken for guaranteed returns.",
+    "referido_beneficio": "Benefit: 30 USD for the first investment. Terms and conditions apply."
   },
   "revolut": {
     "title": "Revolut and Revolut Metal",
@@ -296,7 +304,8 @@
     ],
     "condiciones": "Revolut's terms, benefits, and promotions may vary by plan, country, and time. Do not assume all advantages are permanently available or in all regions. Check the official website for current terms.",
     "nota_referido": "Referral program requirements and rewards may change depending on campaign and country. Check current terms before using a referral link.",
-    "cta": "More information at Revolut"
+    "cta": "More information at Revolut",
+    "referido_beneficio": "Benefit: 50 EUR per referral. Terms and conditions apply."
   },
   "rendimiento": {
     "title": "My investment performance",

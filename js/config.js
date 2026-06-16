@@ -39,17 +39,17 @@ const CONFIG = {
     },
   },
 
-  // ─── Referral links (edit these with your own URLs) ──────────
-  // Format: "YOUR_PLATFORM_REFERRAL_URL"
+  // ─── Referral links and terms ─────────────────────────────────
+  // Replace placeholder codes below with your actual referral codes/URLs
   referrals: {
-    mintos: "YOUR_MINTOS_REFERRAL_URL",
-    bondora: "YOUR_BONDORA_REFERRAL_URL",
-    twino: "YOUR_TWINO_REFERRAL_URL",
-    maclear: "YOUR_MACLEAR_REFERRAL_URL",
-    debitum: "YOUR_DEBITUM_REFERRAL_URL",
-    loanch: "YOUR_LOANCH_REFERRAL_URL",
-    "8lends": "YOUR_8LENDS_REFERRAL_URL",
-    revolut: "YOUR_REVOLUT_REFERRAL_URL",
+    mintos:  { url: "https://www.mintos.com/en/l/ref/3P7UZ9", terms: "https://www.mintos.com/en/mintos-referral-program/" },
+    bondora: { url: "https://goandgrow.eu/ref/rafaelc53", terms: "https://goandgrow.eu/en/referral-terms-and-conditions/" },
+    twino:   { url: "https://www.twino.eu/es/join-today?refer_friend=124969", terms: "https://www.twino.eu/en/legal" },
+    maclear: { url: "https://app.maclear.ch/es/registration?ref=YOMWR9", terms: "https://www.maclear.ch/invite-friends" },
+    debitum: { url: "https://debitum.investments/es/r/128DI", terms: "https://faq.debitum.investments/en/articles/13701255-what-is-a-friend-referral-bonus" },
+    loanch:  { url: null, code: "ThpSr", terms: "https://loanch.com/docs/referral-program.pdf" },
+    "8lends": { url: "https://app.8lends.io/es?referral=5QL06T", terms: "https://www.8lends.io/referral" },
+    revolut: { url: "https://revolut.com/referral/?referral-code=rafael1ud!JUN1-26-AR-CRY&geo-redirect", terms: "https://www.revolut.com/legal/referrals-terms/" },
   },
 
   // ─── CSV data path ────────────────────────────────────────────
@@ -58,5 +58,5 @@ const CONFIG = {
   // ─── Site settings ────────────────────────────────────────────
   siteName: "The P2P Experience",
   defaultLang: "es",
-  version: "0.0.3",
+  version: "0.0.4",
 };
