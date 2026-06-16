@@ -50,6 +50,7 @@ const CONFIG = {
     loanch:  { url: null, code: "ThpSr", terms: "https://loanch.com/docs/referral-program.pdf" },
     "8lends": { url: "https://app.8lends.io/es?referral=5QL06T", terms: "https://www.8lends.io/referral" },
     revolut: { url: "https://revolut.com/referral/?referral-code=rafael1ud!JUN1-26-AR-CRY&geo-redirect", terms: "https://www.revolut.com/legal/referrals-terms/" },
+    kraken:  { url: "https://proinvite.kraken.com/9f1e/wmiv2g6i", terms: "https://www.kraken.com/legal" },
   },
 
   // ─── CSV data path ────────────────────────────────────────────

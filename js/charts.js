@@ -81,6 +81,7 @@ const ChartsModule = (() => {
           },
           },
         },
+        },
         scales: {
           x: {
             grid: {
@@ -135,9 +136,9 @@ const ChartsModule = (() => {
           <h4 class="kpi-title">${col}</h4>
           <div class="kpi-value ${avg >= 0 ? 'positive' : 'negative'}">${avg.toFixed(2)}% <span class="kpi-label">media</span></div>
           <div class="kpi-meta">
-            <span>M&aacute;ximo hist.</span> <strong>${maxVal.toFixed(2)}%</strong>
+            <span>M&aacute;ximo</span> <strong>${maxVal.toFixed(2)}%</strong>
             <span class="kpi-sep">·</span>
-            <span>M&iacute;nimo hist.</span> <strong>${minVal.toFixed(2)}%</strong>
+            <span>M&iacute;nimo</span> <strong>${minVal.toFixed(2)}%</strong>
             <span class="kpi-sep">·</span>
             <span>&Uacute;ltimo mes</span> <strong>${latest !== null && latest !== undefined ? latest.toFixed(2) + '%' : '—'}</strong>
           </div>

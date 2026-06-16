@@ -31,6 +31,7 @@
       <a href="#regulacion" data-i18n="nav.regulacion">Regulaci&oacute;n y Riesgos</a>
       <a href="#plataformas" data-i18n="nav.plataformas">Plataformas</a>
       <a href="#revolut">Revolut</a>
+      <a href="#kraken">Kraken</a>
       <a href="#rendimiento" data-i18n="nav.rendimiento">Rendimiento</a>
       <a href="#faq">FAQ</a>
 
@@ -580,7 +581,7 @@
           </div>
           <div class="experience-box">
             <h4 data-i18n="plataformas.experiencia">Mi experiencia</h4>
-            <p data-i18n="plataforma_8lends.experiencia">8lends pertenece al mismo grupo que Maclear y me parece algo m&aacute;s compleja de usar, porque exige manejar cartera de criptomonedas, convertir fondos a USDC y gestionar manualmente inversiones y retiradas. Esto la hace m&aacute;s engorrosa y a veces m&aacute;s compleja por sus protocolos de seguridad, aunque personalmente me siento c&oacute;modo us&aacute;ndola. Adem&aacute;s, incluye recompensas en tokens de la plataforma, algo que no debe confundirse con rentabilidad garantizada.</p>
+            <p data-i18n="plataforma_8lends.experiencia">8lends pertenece al mismo grupo que Maclear y me parece algo m&aacute;s compleja de usar, porque exige manejar cartera de criptomonedas, convertir fondos a USDC y gestionar manualmente inversiones y retiradas. Para ello utilizo <strong>Kraken Pro</strong> para la compra de criptomonedas y el cambio a USDC, y <strong>Kraken Wallet</strong> como cartera para gestionar manualmente las inversiones y retiradas. Esto la hace m&aacute;s engorrosa y a veces m&aacute;s compleja por sus protocolos de seguridad, aunque personalmente me siento c&oacute;modo us&aacute;ndola. Adem&aacute;s, incluye recompensas en tokens de la plataforma, algo que no debe confundirse con rentabilidad garantizada.</p>
           </div>
           <div class="platform-links">
             <a href="https://8lends.com" target="_blank" rel="noopener noreferrer" data-i18n="plataformas.web_oficial">Web oficial</a>
@@ -656,6 +657,45 @@
   </div>
 </section>
 
+<!-- ─── Kraken Pro & Kraken Wallet ──────────────────────────── -->
+<section class="section" id="kraken">
+  <div class="container">
+    <div class="kraken-logos">
+      <div class="kraken-logo-item">
+        <img src="https://www.google.com/s2/favicons?domain=pro.kraken.com&sz=64" alt="" width="28" height="28" loading="lazy">
+        Kraken Pro
+      </div>
+      <div class="kraken-logo-item">
+        <img src="https://www.google.com/s2/favicons?domain=kraken.com&sz=64" alt="" width="28" height="28" loading="lazy">
+        Kraken Wallet
+      </div>
+    </div>
+    <h2 class="section-title">Kraken Pro y Kraken Wallet</h2>
+    <p class="section-subtitle">Kraken Pro es la plataforma de exchange de criptomonedas con comisiones reducidas ideal para inversores que necesitan convertir fondos a USDC u otras criptomonedas. Kraken Wallet es una cartera autocustodia que permite gestionar manualmente inversiones, retiradas y firmar transacciones de forma segura.</p>
+
+    <h3 style="margin-bottom:16px;font-size:1.1rem">¿Por qu&eacute; los uso para plataformas como 8lends?</h3>
+
+    <div class="kraken-reasons">
+      <div class="kraken-reason">
+        <h4>Kraken Pro</h4>
+        <p>Exchange con comisiones muy reducidas (tarifas <em>maker</em> desde 0,16%) ideal para comprar criptomonedas y convertir a USDC de forma eficiente. Ofrece herramientas avanzadas de trading, transferencias SEPA y retiradas a carteras externas.</p>
+      </div>
+      <div class="kraken-reason">
+        <h4>Kraken Wallet</h4>
+        <p>Cartera autocustodia que te permite gestionar tus propias claves privadas y firmar transacciones manualmente. Compatible con m&uacute;ltiples redes (Ethereum, Polygon, Solana, etc.) y necesaria para interactuar con plataformas DeFi y de lending como 8lends.</p>
+      </div>
+    </div>
+
+    <div class="kraken-note">
+      Tanto Kraken Pro como Kraken Wallet son herramientas fundamentales para inversores que operan con plataformas que requieren gesti&oacute;n manual de criptomonedas. Ambas son desarrolladas por Kraken, uno de los exchanges m&aacute;s veteranos y reputados del sector.
+    </div>
+
+    <a data-referral="kraken" target="_blank" rel="noopener noreferrer" class="btn btn-primary">M&aacute;s informaci&oacute;n en Kraken Pro</a>
+    <br><br>
+    <a data-referral-terms="kraken" target="_blank" rel="noopener noreferrer" style="font-size:0.85rem"><span>T&eacute;rminos del referido</span></a>
+  </div>
+</section>
+
 <!-- ─── Rendimiento ───────────────────────────────────────────── -->
 <section class="section section-alt" id="rendimiento">
   <div class="container">
@@ -667,18 +707,18 @@
 
     <div id="kpi-container" class="kpi-grid"></div>
 
+    <div class="chart-controls">
+      <select id="time-range" class="select-range">
+        <option value="3">3 meses</option>
+        <option value="6">6 meses</option>
+        <option value="12" selected>&Uacute;ltimo a&ntilde;o</option>
+        <option value="36">3 a&ntilde;os</option>
+        <option value="0">Desde el inicio</option>
+      </select>
+    </div>
+
     <div id="chart-container" class="chart-wrapper">
       <canvas id="main-chart"></canvas>
-      <div class="chart-controls">
-        <select id="time-range" class="select-range">
-          <option value="1">1 mes</option>
-          <option value="3">3 meses</option>
-          <option value="6">6 meses</option>
-          <option value="12" selected>&Uacute;ltimo a&ntilde;o</option>
-          <option value="36">3 a&ntilde;os</option>
-          <option value="0">Desde el inicio</option>
-        </select>
-      </div>
     </div>
 
     <h3 style="margin-bottom:16px" data-i18n="rendimiento.tabla">Tabla hist&oacute;rica</h3>
