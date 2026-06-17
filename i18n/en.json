@@ -318,7 +318,9 @@
   },
   "rendimiento": {
     "title": "My investment performance",
-    "intro": "Monthly evolution of annualized percentage return (12-month extrapolation) of my portfolio on each platform.",
+    "intro": "Annualized return of my portfolio on each platform, updated month by month.",
+    "intro_detail": "Each month shows the equivalent annual percentage my investment would have generated if that rate were maintained for a full year. It allows comparing the performance of all platforms on equal footing, even if different amounts were invested.",
+    "intro_ejemplo": "For example, a 12% annualized return does not mean my investment grew 12% that month, but rather that it grew approximately 1% and, if that pace continued for a year, it would yield a 12% annual return.",
     "kpi": {
       "ultimo": "Latest value",
       "maximo": "All-time high",

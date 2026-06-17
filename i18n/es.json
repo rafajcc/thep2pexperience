@@ -318,7 +318,9 @@
   },
   "rendimiento": {
     "title": "Rendimiento de mis inversiones",
-    "intro": "Evolución mensual del rendimiento porcentual anualizado (extrapolación a 12 meses) de mi cartera en cada plataforma.",
+    "intro": "Rendimiento anualizado de mi cartera en cada plataforma, actualizado mes a mes.",
+    "intro_detail": "Cada mes muestra el porcentaje anual equivalente que habría generado mi inversión si ese ritmo se mantuviera un año completo. Sirve para comparar el rendimiento de todas las plataformas en igualdad de condiciones, aunque haya invertido cantidades distintas.",
+    "intro_ejemplo": "Por ejemplo, un 12% anualizado no significa que mi inversión creció un 12% ese mes, sino que creció aproximadamente un 1% y, si ese ritmo se mantuviera durante un año, tendría un 12% anual.",
     "kpi": {
       "ultimo": "Último dato",
       "maximo": "Máximo histórico",
