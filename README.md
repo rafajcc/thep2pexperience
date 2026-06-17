@@ -8,7 +8,7 @@ Web estática informativa y editorial sobre inversión en préstamos P2P. Proyec
 
 ### Versión
 
-v0.2.0
+v0.3.0
 
 ### Estructura del proyecto
 
@@ -109,7 +109,7 @@ Informational static site about P2P lending investing. Personal project with per
 
 ### Version
 
-v0.2.0
+v0.3.0
 
 ### Project structure
 
