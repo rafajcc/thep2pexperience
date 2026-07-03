@@ -10,3 +10,6 @@ investments*.csv
 
 # Archivos de bloqueo de LibreOffice/office
 .~lock.*
+
+# Archivos de respaldo
+*_BAK.*
