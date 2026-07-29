@@ -54,7 +54,7 @@ const CONFIG = {
     debitum: { url: "https://debitum.investments/es/r/128DI", terms: "https://faq.debitum.investments/en/articles/13701255-what-is-a-friend-referral-bonus" },
     loanch:  { url: null, code: "ThpSr", terms: "https://loanch.com/docs/referral-program.pdf" },
     "8lends": { url: "https://app.8lends.io/es?referral=5QL06T", terms: "https://www.8lends.io/referral" },
-    peerberry: { url: null, terms: "https://peerberry.com/invite-a-friend-program-terms-and-conditions/" },
+    peerberry: { url: "https://peerberry.com", terms: "https://peerberry.com/help-articles/welcome-bonus/" },
     revolut: { url: "https://revolut.com/referral/?referral-code=rafael1ud!JUN1-26-AR-CRY&geo-redirect", terms: "https://www.revolut.com/legal/referrals-terms/" },
     kraken:  { url: "https://proinvite.kraken.com/9f1e/wmiv2g6i", terms: "https://www.kraken.com/legal" },
   },
