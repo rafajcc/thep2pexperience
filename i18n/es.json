@@ -298,6 +298,28 @@
     "experiencia": "8lends pertenece al mismo grupo que Maclear y me parece algo más compleja de usar, porque exige manejar cartera de criptomonedas, convertir fondos a USDC y gestionar manualmente inversiones y retiradas. Para ello utilizo Kraken Pro para la compra de criptomonedas y el cambio a USDC, y Kraken Wallet como cartera para gestionar manualmente las inversiones y retiradas. Esto la hace más engorrosa y a veces más compleja por sus protocolos de seguridad, aunque personalmente me siento cómodo usándola. Los préstamos en sí ofrecen una rentabilidad de alrededor del 20 %, pero las cifras que se ven en el gráfico son más altas porque incluyen también la venta de los tokens 8LNDS que recibes al invertir. Concretamente, al invertir te asignan el equivalente al 6 % del importe en tokens 8LNDS, que se desbloquean semanalmente al 2,5 % durante 40 semanas (~10 meses). El número de tokens queda fijado al invertir, pero su valor en USDC varía porque cotizan en un DEX. Yo los voy vendiendo según los recibo, y esa venta adicional es lo que eleva la rentabilidad total por encima del ~20 % de los préstamos. La rentabilidad de los tokens no está garantizada y depende de su cotización.",
     "referido_beneficio": "¿Quieres invertir en 8lends? Usa este enlace y llévate 30 USD de bonus por tu primera inversión."
   },
+  "plataforma_peerberry": {
+    "nombre": "PeerBerry",
+    "resumen": "Plataforma con sede en Croacia, lanzada en 2017 por el grupo Aventus Group. Es uno de los marketplaces de préstamos P2P más grandes de Europa, con más de 3.200 millones € financiados y más de 120.000 inversores. Opera sin licencia ECSP, pero el grupo propietario es rentable desde 2009.",
+    "producto": "Préstamos al consumo, empresariales, leasing y financiación inmobiliaria de varios originadores.",
+    "puntos_fuertes": [
+      "Garantía de recompra (buyback) a 60 días en todos los préstamos.",
+      "Doble protección: garantía de recompra + garantía de grupo (Aventus Group).",
+      "Rentabilidad media estable del ~11 % anual.",
+      "Inversión mínima de solo 10 €.",
+      "Grupo propietario rentable con más de 15 años de experiencia."
+    ],
+    "riesgos": [
+      "No está regulada por ninguna autoridad financiera (sin licencia ECSP).",
+      "No tiene mercado secundario (los préstamos deben mantenerse hasta vencimiento).",
+      "Posible cash drag por alta demanda de préstamos.",
+      "Exposición a mercados emergentes (Colombia, Nigeria, Sudáfrica, etc.).",
+      "La garantía de recompra depende de la salud financiera de los originadores y del grupo."
+    ],
+    "perfil": "Inversores que buscan una plataforma consolidada con rentabilidades estables de doble dígito y que no necesitan liquidez inmediata.",
+    "experiencia": "Mi experiencia con PeerBerry es todavía corta y tengo pocos fondos invertidos. La plataforma me parece sólida, con una interfaz limpia y fácil de usar. Su popularidad y trayectoria desde 2017, junto con el respaldo de Aventus Group, me dan confianza. De momento no he tenido problemas, pero al ser una inversión reciente prefiero ir con cautela e ir aumentando posiciones gradualmente.",
+    "referido_beneficio": "¿Quieres invertir en PeerBerry? Usa este enlace y llévate un +0,5 % de interés adicional durante los primeros 90 días."
+  },
   "revolut": {
     "title": "Revolut y Revolut Metal",
     "intro": "Revolut es una aplicación financiera que ofrece servicios bancarios, cambio de divisas y otras herramientas financieras. Su plan Metal incluye características que pueden resultar útiles para inversores en plataformas P2P europeas.",
@@ -380,7 +402,7 @@
     "afiliacion": "Algunos enlaces de esta web son enlaces de afiliación o referido. Si los utilizas, es posible que reciba una compensación sin coste adicional para ti.",
     "no_asesoramiento": "Ningún contenido de esta web debe interpretarse como asesoramiento financiero, jurídico o fiscal. Cada inversor debe realizar su propia investigación y, si lo necesita, consultar con un profesional.",
     "copyright": "The P2P Experience. Proyecto personal sin ánimo comercial.",
-    "trademarks": "Mintos, Twino, Bondora, Maclear, Debitum, Loanch, 8lends, Revolut y Kraken son marcas registradas de sus respectivos propietarios. Este sitio no tiene ninguna afiliación oficial con dichas empresas."
+    "trademarks": "Mintos, Twino, Bondora, Maclear, Debitum, Loanch, 8lends, PeerBerry, Revolut y Kraken son marcas registradas de sus respectivos propietarios. Este sitio no tiene ninguna afiliación oficial con dichas empresas."
   },
   "theme": {
     "light": "Modo claro",

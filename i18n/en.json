@@ -298,6 +298,28 @@
     "experiencia": "8lends belongs to the same group as Maclear and I find it somewhat more complex to use, as it requires managing a crypto wallet, converting funds to USDC, and manually handling investments and withdrawals. To do this I use Kraken Pro to buy cryptocurrencies and convert to USDC, and Kraken Wallet as a self-custody wallet to manually manage investments and withdrawals. This makes it more cumbersome, with stricter security protocols, though I personally feel comfortable using it. The loans themselves yield around 20 %, but the figures shown in the chart are higher because they also include the proceeds from selling 8LNDS tokens received when investing. Specifically, when you invest, you are allocated the equivalent of 6 % of your investment in 8LNDS tokens, which unlock weekly at 2.5 % over 40 weeks (~10 months). The number of tokens is locked in at the time of investment, but their USDC value fluctuates as they trade on a DEX. I sell them as I receive them, and that extra token income is what pushes the total return above the ~20 % from loans. Token returns are not guaranteed and depend on the market price.",
     "referido_beneficio": "Want to invest in 8lends? Use this link and get a 30 USD bonus on your first investment."
   },
+  "plataforma_peerberry": {
+    "nombre": "PeerBerry",
+    "resumen": "Platform headquartered in Croatia, launched in 2017 by the Aventus Group. It is one of the largest P2P lending marketplaces in Europe, with over €3.2 billion funded and 120,000+ investors. It operates without an ECSP license, but the parent group has been profitable since 2009.",
+    "producto": "Consumer loans, business loans, leasing, and real estate financing from multiple originators.",
+    "puntos_fuertes": [
+      "60-day buyback guarantee on all loans.",
+      "Double protection: buyback guarantee + group guarantee (Aventus Group).",
+      "Stable average return of ~11 % per year.",
+      "Minimum investment of only €10.",
+      "Profitable parent group with over 15 years of experience."
+    ],
+    "riesgos": [
+      "Not regulated by any financial authority (no ECSP license).",
+      "No secondary market (loans must be held until maturity).",
+      "Potential cash drag due to high loan demand.",
+      "Exposure to emerging markets (Colombia, Nigeria, South Africa, etc.).",
+      "Buyback guarantee depends on the financial health of originators and the group."
+    ],
+    "perfil": "Investors looking for a consolidated platform with stable double-digit returns who do not need immediate liquidity.",
+    "experiencia": "My experience with PeerBerry is still short and I have small funds invested. The platform seems solid, with a clean and easy-to-use interface. Its popularity and track record since 2017, along with the backing of Aventus Group, give me confidence. So far I have had no issues, but since it is a recent investment I prefer to proceed cautiously and gradually increase my positions.",
+    "referido_beneficio": "Want to invest in PeerBerry? Use this link and get an extra +0.5 % interest rate for your first 90 days."
+  },
   "revolut": {
     "title": "Revolut and Revolut Metal",
     "intro": "Revolut is a financial app offering banking services, currency exchange, and other financial tools. Its Metal plan includes features that may be useful for P2P investors dealing with European platforms.",
@@ -380,7 +402,7 @@
     "afiliacion": "Some links on this website are affiliate or referral links. If you use them, I may receive compensation at no extra cost to you.",
     "no_asesoramiento": "No content on this website should be interpreted as financial, legal, or tax advice. Each investor should conduct their own research and, if needed, consult a professional.",
     "copyright": "The P2P Experience. Personal non-commercial project.",
-    "trademarks": "Mintos, Twino, Bondora, Maclear, Debitum, Loanch, 8lends, Revolut and Kraken are registered trademarks of their respective owners. This site is not affiliated with any of these companies."
+    "trademarks": "Mintos, Twino, Bondora, Maclear, Debitum, Loanch, 8lends, PeerBerry, Revolut and Kraken are registered trademarks of their respective owners. This site is not affiliated with any of these companies."
   },
   "theme": {
     "light": "Light mode",
