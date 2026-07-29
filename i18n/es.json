@@ -336,7 +336,16 @@
     "referido_beneficio": "¿Usas Revolut? Regístrate con este enlace y llévate 50 € de bonus (sujeto a condiciones de la campaña vigente)."
   },
   "kraken": {
-    "nota_referido": "Los requisitos y recompensas del programa de referido pueden cambiar según campaña. Infórmate de los términos actuales antes de usar un enlace de referido."
+    "title": "Kraken Pro y Kraken Wallet",
+    "subtitle": "Kraken Pro es la plataforma de exchange de criptomonedas con comisiones reducidas ideal para inversores que necesitan convertir fondos a USDC u otras criptomonedas. Kraken Wallet es una cartera autocustodia que permite gestionar manualmente inversiones, retiradas y firmar transacciones de forma segura.",
+    "reasons_title": "¿Por qué los uso para plataformas como 8lends?",
+    "pro_title": "Kraken Pro",
+    "pro_desc": "Exchange con comisiones muy reducidas (tarifas <em>maker</em> desde 0,16%) ideal para comprar criptomonedas y convertir a USDC de forma eficiente. Ofrece herramientas avanzadas de trading, transferencias SEPA y retiradas a carteras externas.",
+    "wallet_title": "Kraken Wallet",
+    "wallet_desc": "Cartera autocustodia que te permite gestionar tus propias claves privadas y firmar transacciones manualmente. Compatible con múltiples redes (Ethereum, Polygon, Solana, etc.) y necesaria para interactuar con plataformas DeFi y de lending como 8lends.",
+    "note": "Tanto Kraken Pro como Kraken Wallet son herramientas fundamentales para inversores que operan con plataformas que requieren gestión manual de criptomonedas. Ambas son desarrolladas por Kraken, uno de los exchanges más veteranos y reputados del sector.",
+    "nota_referido": "Los requisitos y recompensas del programa de referido pueden cambiar según campaña. Infórmate de los términos actuales antes de usar un enlace de referido.",
+    "cta": "Más información en Kraken"
   },
   "rendimiento": {
     "title": "Rendimiento de mis inversiones",
